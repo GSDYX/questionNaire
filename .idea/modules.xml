@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuestionNaire.iml" filepath="$PROJECT_DIR$/QuestionNaire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/mapper/mapper.iml" filepath="$PROJECT_DIR$/manager/mapper/mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/pojo/pojo.iml" filepath="$PROJECT_DIR$/manager/pojo/pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vue/vue.iml" filepath="$PROJECT_DIR$/vue/vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/web/web.iml" filepath="$PROJECT_DIR$/manager/web/web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jdk-7u79">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/java/jdk-7u79" />
+    </SOURCES>
+    <jarDirectory url="file://E:/java/jdk-7u79" recursive="false" type="SOURCES" />
+  </library>
+</component>
