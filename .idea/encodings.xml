@@ -8,6 +8,14 @@
     <file url="file://$PROJECT_DIR$/manager/service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager/web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal/mapper-portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal/portal-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal/portal-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal/portal-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portal/portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/portas/protal-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vue" charset="UTF-8" />
   </component>
 </project>

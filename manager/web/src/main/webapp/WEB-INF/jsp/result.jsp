@@ -13,7 +13,7 @@
     <title>Title</title>
 </head>
 <body>
-<P>${admin.adminid}</P>
+<P>${admin.adminname}</P>
 hello
 
 </body>

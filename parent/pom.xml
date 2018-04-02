@@ -12,6 +12,8 @@
         <module>../common</module>
         <module>../manager</module>
         <module>../vue</module>
+        <module>../portal</module>
+        <module>../portal</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

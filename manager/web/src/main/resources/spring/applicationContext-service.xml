@@ -9,5 +9,5 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
 	<!-- 配置包扫描器，扫描@Service主键的类 -->
-	<context:component-scan base-package="service"/>
+	<context:component-scan base-package="manager.service"/>
 </beans>

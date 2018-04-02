@@ -12,9 +12,8 @@
 </head>
 <body>
     <form action="/login" method="post">
-        <input type="text" name="adminname" value="">
-        <input type="text" name="adminpwd" value="">
-        <input type="text" name="adminid" value="">
+        <input type="text" name="adminname" value="root">
+        <input type="text" name="adminpwd" value="root">
 
     <input type="submit" value="提交">
     </form>

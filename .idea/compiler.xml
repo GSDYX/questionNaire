@@ -11,8 +11,11 @@
         <module name="managerService" />
         <module name="mapper" />
         <module name="pojo" />
+        <module name="portal-mapper" />
+        <module name="portal-pojo" />
+        <module name="portal-service" />
+        <module name="portal-web" />
         <module name="service" />
-        <module name="vue" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -22,8 +25,15 @@
       <module name="managerPojo" target="1.5" />
       <module name="managerService" target="1.5" />
       <module name="mapper" target="1.7" />
+      <module name="mapper-portal" target="1.7" />
       <module name="parent" target="1.7" />
       <module name="pojo" target="1.7" />
+      <module name="portal" target="1.7" />
+      <module name="portal-mapper" target="1.7" />
+      <module name="portal-pojo" target="1.7" />
+      <module name="portal-service" target="1.7" />
+      <module name="portal-web" target="1.7" />
+      <module name="protal-service" target="1.7" />
       <module name="service" target="1.7" />
       <module name="vue" target="1.7" />
       <module name="web" target="1.7" />
