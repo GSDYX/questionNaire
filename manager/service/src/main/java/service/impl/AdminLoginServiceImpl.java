@@ -3,6 +3,7 @@ package service.impl;
 import mapper.AdminMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pojo.Admin;
 import pojo.AdminExample;
 import service.AdminLoginService;
 
@@ -11,12 +12,18 @@ public class AdminLoginServiceImpl implements AdminLoginService {
 
     @Autowired
     private AdminMapper adminMapper;
-    @Override
-    public int findByName(String name) throws Exception {
+
+    public Admin findByName(String adminname) throws Exception {
         AdminExample adminExample = new AdminExample();
-        //通过criteria构造查询条件
         AdminExample.Criteria criteria = adminExample.createCriteria();
-        criteria.andAdminnameEqualTo("name");
-        return adminMapper.countByExample(adminExample);
+        criteria.andAdminnameEqualTo(adminname);
+        Admin admin = adminMapper.selectByExample(adminExample);
+        return admin;
+    }
+
+    @Override
+    public Admin findByAdminID(int adminId) throws Exception {
+        Admin admin = adminMapper.selectByPrimaryKey(adminId);
+        return admin;
     }
 }

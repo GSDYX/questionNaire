@@ -4,8 +4,6 @@ import org.apache.ibatis.annotations.Param;
 import pojo.Admin;
 import pojo.AdminExample;
 
-import java.util.List;
-
 public interface AdminMapper {
     int countByExample(AdminExample example);
 
@@ -17,7 +15,7 @@ public interface AdminMapper {
 
     int insertSelective(Admin record);
 
-    List<Admin> selectByExample(AdminExample example);
+    Admin selectByExample(AdminExample example);
 
     Admin selectByPrimaryKey(Integer adminid);
 

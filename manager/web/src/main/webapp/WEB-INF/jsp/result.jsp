@@ -13,6 +13,8 @@
     <title>Title</title>
 </head>
 <body>
-    ${result}
+<P>${admin.adminid}</P>
+hello
+
 </body>
 </html>

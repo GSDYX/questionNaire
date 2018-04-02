@@ -2,9 +2,13 @@ package controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import pojo.Admin;
 import service.AdminLoginService;
+
+import java.util.List;
 
 @Controller
 public class AdminLoginController {
@@ -13,19 +17,22 @@ public class AdminLoginController {
     private AdminLoginService adminLoginService;
 
 
+    //    @RequestMapping("/login")
+//    public String login(Model model, String adminname) throws Exception {
+//
+//
+//        Admin admin = adminLoginService.findByName(adminname);
+//
+//        model.addAttribute("admin",admin);
+//
+//        return "result";
+//
+//    }
     @RequestMapping("/login")
-    public ModelAndView login() throws Exception {
-        //调用servie来查询商品列表
-        int result=adminLoginService.findByName("name");
-
-        ModelAndView modelAndView=new ModelAndView();
-        modelAndView.addObject("result",result);
-        //指定逻辑视图名itemsList.jsp
-        modelAndView.setViewName("result");
-
-        return modelAndView;
-
+    public String findByAdminID(Model model, int adminID) throws Exception {
+        Admin admin = adminLoginService.findByAdminID(adminID);
+        model.addAttribute("admin", admin);
+        return "result";
     }
-
 
 }

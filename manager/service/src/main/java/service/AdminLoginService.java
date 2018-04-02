@@ -1,5 +1,9 @@
 package service;
 
+import pojo.Admin;
+
 public interface AdminLoginService {
-    int findByName(String name) throws Exception;
+    Admin findByName(String name) throws Exception;
+
+    Admin findByAdminID(int adminId)throws Exception;
 }
