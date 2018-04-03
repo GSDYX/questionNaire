@@ -45,7 +45,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="pojo" />
     <orderEntry type="module" module-name="portal-pojo" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.1.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.1.3.RELEASE" level="project" />
@@ -73,5 +72,6 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="module" module-name="GeneratorSqlmap" />
   </component>
 </module>

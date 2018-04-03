@@ -3,6 +3,8 @@
     <words>
       <w>adminname</w>
       <w>jsps</w>
+      <w>usernname</w>
+      <w>userpwd</w>
     </words>
   </dictionary>
 </component>

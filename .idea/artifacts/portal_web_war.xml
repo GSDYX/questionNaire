@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="portal-web:war">
+    <output-path>$PROJECT_DIR$/portal/portal-web/target</output-path>
+    <root id="archive" name="portal-web.war">
+      <element id="artifact" artifact-name="portal-web:war exploded" />
+    </root>
+  </artifact>
+</component>

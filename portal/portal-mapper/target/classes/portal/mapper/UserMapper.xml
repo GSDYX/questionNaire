@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="portal.mapper.UserMapper" >
-  <resultMap id="BaseResultMap" type="User" >
+  <resultMap id="BaseResultMap" type="portal.pojo.User" >
     <id column="uid" property="uid" jdbcType="INTEGER" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="userpwd" property="userpwd" jdbcType="VARCHAR" />
@@ -70,7 +70,7 @@
   <sql id="Base_Column_List" >
     uid, username, userpwd, email, status, activationCode
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="UserExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="portal.pojo.UserExample" >
     select
     <if test="distinct" >
       distinct
@@ -94,13 +94,13 @@
     delete from user
     where uid = #{uid,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="UserExample" >
+  <delete id="deleteByExample" parameterType="portal.pojo.UserExample" >
     delete from user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="User" >
+  <insert id="insert" parameterType="portal.pojo.User" >
     insert into user (uid, username, userpwd, 
       email, status, activationCode
       )
@@ -108,7 +108,7 @@
       #{email,jdbcType=VARCHAR}, #{status,jdbcType=BIT}, #{activationcode,jdbcType=CHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="User" >
+  <insert id="insertSelective" parameterType="portal.pojo.User" >
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="uid != null" >
@@ -151,7 +151,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="UserExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="portal.pojo.UserExample" resultType="java.lang.Integer" >
     select count(*) from user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -195,7 +195,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="User" >
+  <update id="updateByPrimaryKeySelective" parameterType="portal.pojo.User" >
     update user
     <set >
       <if test="username != null" >
@@ -216,7 +216,7 @@
     </set>
     where uid = #{uid,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="User" >
+  <update id="updateByPrimaryKey" parameterType="portal.pojo.User" >
     update user
     set username = #{username,jdbcType=VARCHAR},
       userpwd = #{userpwd,jdbcType=VARCHAR},
