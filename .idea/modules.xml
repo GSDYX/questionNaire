@@ -15,6 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/portal/portal-service/portal-service.iml" filepath="$PROJECT_DIR$/portal/portal-service/portal-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-web/portal-web.iml" filepath="$PROJECT_DIR$/portal/portal-web/portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-mapper/user-mapper.iml" filepath="$PROJECT_DIR$/user/user-mapper/user-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-pojo/user-pojo.iml" filepath="$PROJECT_DIR$/user/user-pojo/user-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-service/user-service.iml" filepath="$PROJECT_DIR$/user/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-web/user-web.iml" filepath="$PROJECT_DIR$/user/user-web/user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/web/web.iml" filepath="$PROJECT_DIR$/manager/web/web.iml" />
     </modules>
   </component>

@@ -16,6 +16,10 @@
         <module name="portal-service" />
         <module name="portal-web" />
         <module name="service" />
+        <module name="user-mapper" />
+        <module name="user-pojo" />
+        <module name="user-service" />
+        <module name="user-web" />
         <module name="web" />
       </profile>
     </annotationProcessing>
@@ -35,6 +39,11 @@
       <module name="portal-web" target="1.7" />
       <module name="protal-service" target="1.7" />
       <module name="service" target="1.7" />
+      <module name="user" target="1.7" />
+      <module name="user-mapper" target="1.7" />
+      <module name="user-pojo" target="1.7" />
+      <module name="user-service" target="1.7" />
+      <module name="user-web" target="1.7" />
       <module name="vue" target="1.7" />
       <module name="web" target="1.7" />
     </bytecodeTargetLevel>

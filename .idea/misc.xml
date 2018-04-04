@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/manager/web" />
     <file type="web" url="file://$PROJECT_DIR$/portal/portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/user/user-web" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -19,6 +20,8 @@
         <option value="$PROJECT_DIR$/managerMapper/pom.xml" />
         <option value="$PROJECT_DIR$/managerPojo/pom.xml" />
         <option value="$PROJECT_DIR$/mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/user/pom.xml" />
         <option value="$PROJECT_DIR$/portal/mapper-portal/pom.xml" />
         <option value="$PROJECT_DIR$/portal/pom.xml" />
         <option value="$PROJECT_DIR$/vue/pom.xml" />
