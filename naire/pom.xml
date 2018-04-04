@@ -10,17 +10,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>portal</artifactId>
+    <artifactId>naire</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>portal-mapper</module>
-        <module>portal-pojo</module>
-        <module>portal-service</module>
-        <module>portal-web</module>
+        <module>naire-pojo</module>
+        <module>naire-mapper</module>
+        <module>naire-service</module>
+        <module>naire-web</module>
     </modules>
-
     <dependencies>
-        <!-- 依赖common工程 -->
+        <!-- common工程 -->
         <dependency>
             <groupId>QN</groupId>
             <artifactId>common</artifactId>

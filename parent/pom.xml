@@ -14,6 +14,7 @@
         <module>../vue</module>
         <module>../portal</module>
         <module>../user</module>
+        <module>../naire</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

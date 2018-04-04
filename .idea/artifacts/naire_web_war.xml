@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="naire-web:war">
+    <output-path>$PROJECT_DIR$/naire/naire-web/target</output-path>
+    <root id="archive" name="naire-web.war">
+      <element id="artifact" artifact-name="naire-web:war exploded" />
+    </root>
+  </artifact>
+</component>

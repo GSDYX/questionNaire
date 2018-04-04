@@ -7,9 +7,12 @@
     <file url="file://$PROJECT_DIR$/manager/manager-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager/manager-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/manager/manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/naire" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/naire/naire-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/naire/naire-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/naire/naire-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/naire/naire-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parent/user" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parent/user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/portal/portal-mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/portal/portal-pojo" charset="UTF-8" />

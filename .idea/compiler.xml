@@ -14,6 +14,10 @@
         <module name="managerPojo" />
         <module name="managerService" />
         <module name="mapper" />
+        <module name="naire-mapper" />
+        <module name="naire-pojo" />
+        <module name="naire-service" />
+        <module name="naire-web" />
         <module name="pojo" />
         <module name="portal-mapper" />
         <module name="portal-pojo" />
@@ -38,6 +42,11 @@
       <module name="managerService" target="1.5" />
       <module name="mapper" target="1.7" />
       <module name="mapper-portal" target="1.7" />
+      <module name="naire" target="1.7" />
+      <module name="naire-mapper" target="1.7" />
+      <module name="naire-pojo" target="1.7" />
+      <module name="naire-service" target="1.7" />
+      <module name="naire-web" target="1.7" />
       <module name="parent" target="1.7" />
       <module name="pojo" target="1.7" />
       <module name="portal" target="1.7" />
