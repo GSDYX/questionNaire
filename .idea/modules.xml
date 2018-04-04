@@ -6,21 +6,21 @@
       <module fileurl="file://$PROJECT_DIR$/QuestionNaire.iml" filepath="$PROJECT_DIR$/QuestionNaire.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manager/mapper/mapper.iml" filepath="$PROJECT_DIR$/manager/mapper/mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-mapper/manager-mapper.iml" filepath="$PROJECT_DIR$/manager/manager-mapper/manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/manager/manager-pojo/manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/manager/manager-service/manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-web/manager-web.iml" filepath="$PROJECT_DIR$/manager/manager-web/manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manager/pojo/pojo.iml" filepath="$PROJECT_DIR$/manager/pojo/pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal.iml" filepath="$PROJECT_DIR$/portal/portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-mapper/portal-mapper.iml" filepath="$PROJECT_DIR$/portal/portal-mapper/portal-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-pojo/portal-pojo.iml" filepath="$PROJECT_DIR$/portal/portal-pojo/portal-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-service/portal-service.iml" filepath="$PROJECT_DIR$/portal/portal-service/portal-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-web/portal-web.iml" filepath="$PROJECT_DIR$/portal/portal-web/portal-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user-mapper/user-mapper.iml" filepath="$PROJECT_DIR$/user/user-mapper/user-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user-pojo/user-pojo.iml" filepath="$PROJECT_DIR$/user/user-pojo/user-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user-service/user-service.iml" filepath="$PROJECT_DIR$/user/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user-web/user-web.iml" filepath="$PROJECT_DIR$/user/user-web/user-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manager/web/web.iml" filepath="$PROJECT_DIR$/manager/web/web.iml" />
     </modules>
   </component>
 </project>

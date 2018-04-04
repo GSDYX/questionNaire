@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>protal-service</artifactId>
+    <artifactId>portal-service</artifactId>
     <dependencies>
         <dependency>
             <groupId>QN</groupId>

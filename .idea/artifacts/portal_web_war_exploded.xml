@@ -7,14 +7,11 @@
           <element id="module-output" name="portal-web" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="protal-service-1.0-SNAPSHOT.jar">
+          <element id="archive" name="portal-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="portal-service" />
           </element>
           <element id="archive" name="portal-mapper-1.0-SNAPSHOT.jar">
             <element id="module-output" name="portal-mapper" />
-          </element>
-          <element id="archive" name="portal-pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="portal-pojo" />
           </element>
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
@@ -30,6 +27,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.4" />
+          <element id="archive" name="portal-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="portal-pojo" />
+          </element>
           <element id="library" level="project" name="Maven: junit:junit:4.12" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />

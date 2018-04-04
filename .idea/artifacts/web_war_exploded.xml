@@ -4,14 +4,14 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="web" />
+          <element id="module-output" name="manager-web" />
         </element>
         <element id="directory" name="lib">
           <element id="archive" name="service-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="service" />
+            <element id="module-output" name="manager-service" />
           </element>
           <element id="archive" name="mapper-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="mapper" />
+            <element id="module-output" name="manager-mapper" />
           </element>
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.15" />
@@ -33,7 +33,7 @@
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
           <element id="archive" name="pojo-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="pojo" />
+            <element id="module-output" name="manager-pojo" />
           </element>
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.9" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.2" />
@@ -59,9 +59,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/manager/web/target/web/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/manager/manager-web/target/web/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="web/web/Web" />
+      <element id="javaee-facet-resources" facet="manager-web/web/Web" />
     </root>
   </artifact>
 </component>

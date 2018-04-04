@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common" />
+        <module name="manager-mapper" />
+        <module name="manager-pojo" />
+        <module name="manager-service" />
+        <module name="manager-web" />
         <module name="managerPojo" />
         <module name="managerService" />
         <module name="mapper" />
@@ -26,6 +30,10 @@
     <bytecodeTargetLevel>
       <module name="common" target="1.7" />
       <module name="manager" target="1.7" />
+      <module name="manager-mapper" target="1.7" />
+      <module name="manager-pojo" target="1.7" />
+      <module name="manager-service" target="1.7" />
+      <module name="manager-web" target="1.7" />
       <module name="managerPojo" target="1.5" />
       <module name="managerService" target="1.5" />
       <module name="mapper" target="1.7" />

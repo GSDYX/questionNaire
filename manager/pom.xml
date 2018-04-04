@@ -13,13 +13,13 @@
     <artifactId>manager</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mapper</module>
-        <module>pojo</module>
-        <module>service</module>
-        <module>web</module>
+        <module>manager-mapper</module>
+        <module>manager-pojo</module>
+        <module>manager-service</module>
+        <module>manager-web</module>
     </modules>
     <dependencies>
-        <!-- 依赖taotao-common工程 -->
+        <!-- common工程 -->
         <dependency>
             <groupId>QN</groupId>
             <artifactId>common</artifactId>

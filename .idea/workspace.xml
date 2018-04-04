@@ -33,6 +33,10 @@
     <ignored path="$PROJECT_DIR$/user/user-mapper/target/" />
     <ignored path="$PROJECT_DIR$/user/user-web/target/" />
     <ignored path="$PROJECT_DIR$/user/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/manager/manager-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/manager/manager-service/target/" />
+    <ignored path="$PROJECT_DIR$/manager/manager-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/manager/manager-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1289">
-              <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,18 +79,28 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1287">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="10" />
+            <state relative-caret-position="561">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2013">
-              <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+            <state relative-caret-position="-495">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -112,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="-264">
+              <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -135,7 +149,7 @@
       <file leaf-file-name="applicationContext-trans.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-trans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
+            <state relative-caret-position="1155">
               <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding />
             </state>
@@ -145,18 +159,8 @@
       <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portal/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="47" column="12" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="327">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -195,18 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manager/web/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/manager/service/src/main/java/service/AdminLoginService.java" />
-        <option value="$PROJECT_DIR$/manager/service/src/main/java/service/impl/AdminLoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/java/TestDataSource.java" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/webapp/jsps/adminLogin.jsp" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/webapp/WEB-INF/jsp/result.jsp" />
-        <option value="$PROJECT_DIR$/common/src/main/resources/mysql.sql" />
-        <option value="$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/java/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/manager/web/src/main/java/controller/AdminLoginController.java" />
         <option value="$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/portal/portal-pojo/src/main/java/pojo/UserCustom.java" />
         <option value="$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/hello.jsp" />
@@ -219,15 +211,11 @@
         <option value="$PROJECT_DIR$/manager/web/src/main/java/portal/controller/AdminLoginController.java" />
         <option value="$PROJECT_DIR$/portal/portal-service/src/main/java/portal/service/Demo.java" />
         <option value="$PROJECT_DIR$/portal/portal-service/src/main/java/portal/service/impl/AdminLoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/portal/portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/portal/pom.xml" />
-        <option value="$PROJECT_DIR$/portal/portal-service/pom.xml" />
         <option value="$PROJECT_DIR$/portal/portal-web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/manager/pom.xml" />
         <option value="$PROJECT_DIR$/manager/service/src/main/java/manager/service/impl/AdminLoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/portal/portal-service/src/main/java/portal/service/UserLoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/UserHome.jsp" />
-        <option value="$PROJECT_DIR$/GeneratorSqlmap/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/portal/portal-mapper/src/main/java/portal/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/portal/portal-service/src/main/java/portal/service/UserLoginService.java" />
         <option value="$PROJECT_DIR$/portal/portal-service/src/main/java/portal/service/impl/UserLoginServiceImpl.java" />
@@ -239,13 +227,29 @@
         <option value="$PROJECT_DIR$/portal/portal-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/user/user-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/user/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/user/user-web/pom.xml" />
-        <option value="$PROJECT_DIR$/user/pom.xml" />
         <option value="$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/user/user-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/manager/manager-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/manager/manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/manager/pom.xml" />
+        <option value="$PROJECT_DIR$/manager/manager-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/manager/manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/user/user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/portal/portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/portal/portal-service/pom.xml" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/AdminLoginController.java" />
+        <option value="$PROJECT_DIR$/user/user-pojo/src/main/java/user/pojo/User.java" />
+        <option value="$PROJECT_DIR$/user/user-mapper/src/main/java/user/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/user/user-service/src/main/java/user/service/impl/UserLoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user/user-web/src/main/java/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/GeneratorSqlmap/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/user/user-service/src/main/java/user/service/UserLoginService.java" />
+        <option value="$PROJECT_DIR$/user/user-web/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -299,8 +303,8 @@
     <handled-path value="$PROJECT_DIR$/vue/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="27" />
+    <option name="x" value="80" />
+    <option name="y" value="18" />
     <option name="width" value="1942" />
     <option name="height" value="1019" />
   </component>
@@ -631,24 +635,27 @@
     <property name="SearchEverywhereHistoryKey" value="p&#9;FILE&#9;jar://C:/Users/GSDYX/.m2/repository/com/github/pagehelper/pagehelper/3.4.2-fix/pagehelper-3.4.2-fix.jar!/com/github/pagehelper/PageHelper.class&#10;pagehelper&#9;FILE&#9;file://E:/github/myProject/QuestionNaire/.idea/libraries/Maven__com_github_pagehelper_pagehelper_3_4_2_fix.xml" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="portal.service.impl" />
-      <recent name="portal.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\github\myProject\QuestionNaire\portal\portal-pojo\src\main\java\portal\pojo" />
-      <recent name="E:\github\myProject\QuestionNaire\portal\portal-mapper\src\main\java\portal\mapper" />
-      <recent name="E:\github\myProject\QuestionNaire\portal\portal-pojo\src\main\java\pojo" />
-      <recent name="E:\github\myProject\QuestionNaire\portal\portal-mapper\src\main\java\mapper" />
-      <recent name="E:\github\myProject\QuestionNaire\portal\portal-web\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="portal.service.impl" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\github\myProject\QuestionNaire\portal\portal-pojo" />
       <recent name="E:\github\myProject\QuestionNaire\manager\web\src\main\webapp\jsps" />
       <recent name="E:\github\myProject\QuestionNaire\manager\web\src\main\webapp\jsp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\myProject\QuestionNaire\user\user-web\src\main\webapp" />
+      <recent name="E:\github\myProject\QuestionNaire\user\user-web\src\main\webapp\WEB-INF" />
+      <recent name="E:\github\myProject\QuestionNaire\user\user-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\github\myProject\QuestionNaire\user\user-pojo\src\main\java\user\pojo" />
+      <recent name="E:\github\myProject\QuestionNaire\user\user-mapper\src\main\java\user\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="user.controller" />
+      <recent name="user.service.impl" />
+      <recent name="user.service" />
+      <recent name="portal.service.impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="portal.service.impl" />
+      <recent name="portal.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -853,7 +860,7 @@
       <workItem from="1522591188200" duration="3738000" />
       <workItem from="1522631709892" duration="42785000" />
       <workItem from="1522711581067" duration="21929000" />
-      <workItem from="1522805086317" duration="3024000" />
+      <workItem from="1522805086317" duration="5297000" />
     </task>
     <servers />
   </component>
@@ -881,7 +888,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72331000" />
+    <option name="totallyTimeSpent" value="74604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -893,7 +900,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="27" width="1942" height="1019" extended-state="0" />
+    <frame x="80" y="18" width="1942" height="1019" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
@@ -913,7 +920,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3215159" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45110023" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26772615" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -950,187 +957,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1485">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="68" lean-forward="false" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/src/GeneratorSqlmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE-sources.jar!/org/springframework/validation/support/BindingAwareModelMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/java/jdk-7u79/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="1382" column="0" lean-forward="false" selection-start-line="1382" selection-start-column="0" selection-end-line="1382" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/webapp/jsps/adminLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/web/src/main/webapp/WEB-INF/jsp/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE-sources.jar!/org/springframework/ui/ExtendedModelMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/src/portal/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/src/portal/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-mapper/src/main/java/portal/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2442">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <marker date="1522750887587" expanded="true" signature="3600:3702" ph="select from user" />
-            <marker date="1522750887587" expanded="true" signature="3789:3845" ph="delete from user... " />
-            <marker date="1522750887587" expanded="true" signature="3935:3951" ph="delete from user... " />
-            <marker date="1522750887587" expanded="true" signature="4118:4398" ph="insert into user... " />
-            <marker date="1522750887587" expanded="true" signature="5641:5666" ph="select count... user" />
-            <marker date="1522750887587" expanded="true" signature="6688:7007" ph="update user... " />
-            <marker date="1522750887587" expanded="true" signature="7205:7756" ph="update user... " />
-            <marker date="1522750887587" expanded="true" signature="7842:8122" ph="update user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-mapper/src/main/java/portal/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-pojo/src/main/java/portal/pojo/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/GeneratorSqlmap.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE-sources.jar!/org/springframework/ui/ModelMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-pojo/src/main/java/portal/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/userHome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -1196,10 +1022,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2013">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1023">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
+        <state relative-caret-position="-6417">
           <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1208,6 +1098,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1137">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1222,80 +1160,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/portal-mapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="60" selection-end-column="12" />
+        <state relative-caret-position="366">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-mapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/AdminLoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="131">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/AdminLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="62" column="19" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="201">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/GeneratorSqlmap/src/GeneratorSqlmap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="132">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/pom.xml">
+    <entry file="file://$PROJECT_DIR$/user/user-pojo/src/main/java/user/pojo/UserExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="47" column="12" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="47" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+    <entry file="file://$PROJECT_DIR$/user/user-pojo/src/main/java/user/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1289">
-          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/user/user-mapper/src/main/java/user/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1287">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522822652412" expanded="true" signature="3594:3696" ph="select from user" />
+            <marker date="1522822652412" expanded="true" signature="3783:3839" ph="delete from user... " />
+            <marker date="1522822652412" expanded="true" signature="3927:3943" ph="delete from user... " />
+            <marker date="1522822652412" expanded="true" signature="4108:4388" ph="insert into user... " />
+            <marker date="1522822652412" expanded="true" signature="5627:5652" ph="select count... user" />
+            <marker date="1522822652412" expanded="true" signature="6674:6993" ph="update user... " />
+            <marker date="1522822652412" expanded="true" signature="7189:7740" ph="update user... " />
+            <marker date="1522822652412" expanded="true" signature="7824:8104" ph="update user... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-mapper/src/main/java/user/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/user/user-service/src/main/java/user/service/UserLoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="132">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-service/src/main/java/user/service/impl/UserLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/java/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/jsp/userLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/WEB-INF/jsp/userHome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1316,18 +1327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/springmvc.xml">
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="-264">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1340,10 +1343,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-dao.xml">
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/applicationContext-trans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="1155">
+          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -20,7 +20,7 @@
     </modules>
 
     <dependencies>
-        <!-- 依赖taotao-common工程 -->
+        <!-- 依赖common工程 -->
         <dependency>
             <groupId>QN</groupId>
             <artifactId>common</artifactId>
