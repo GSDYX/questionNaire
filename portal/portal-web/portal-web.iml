@@ -43,6 +43,10 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:4.1.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.4" level="project" />
     <orderEntry type="module" module-name="portal-pojo" />
+    <orderEntry type="module" module-name="user-web" />
+    <orderEntry type="module" module-name="user-service" />
+    <orderEntry type="module" module-name="user-mapper" />
+    <orderEntry type="module" module-name="user-pojo" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />

@@ -12,8 +12,8 @@
     <title>Title</title>
 </head>
 <body>
-
-<a href="<c:url value='/userLoginJump'/>">用户登入</a>
-hello
+<h1>问卷调查系统</h1>
+<a href="/user/userLoginJump">用户登入</a>
+<a href="/user/userSignupJump">用户注册</a>
 </body>
 </html>
