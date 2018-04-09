@@ -24,6 +24,8 @@
         <module name="portal-service" />
         <module name="portal-web" />
         <module name="service" />
+        <module name="shiro-service" />
+        <module name="shiro-web" />
         <module name="user-mapper" />
         <module name="user-pojo" />
         <module name="user-service" />
@@ -56,6 +58,9 @@
       <module name="portal-web" target="1.7" />
       <module name="protal-service" target="1.7" />
       <module name="service" target="1.7" />
+      <module name="shiro" target="1.7" />
+      <module name="shiro-service" target="1.7" />
+      <module name="shiro-web" target="1.7" />
       <module name="user" target="1.7" />
       <module name="user-mapper" target="1.7" />
       <module name="user-pojo" target="1.7" />

@@ -14,7 +14,7 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	<!-- 包扫描器，扫描@Controller注解 -->
-	<context:component-scan base-package="portal.controller" />
+	<context:component-scan base-package="shiro.controller" />
 	<!-- 配置资源映射 -->
 	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
 	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
@@ -26,5 +26,12 @@
 		<!-- 设定文件上传的最大值5MB，5*1024*1024 -->
 		<property name="maxUploadSize" value="5242880"></property>
 	</bean>
-
+	<!-- 开启aop，对类代理 -->
+	<aop:config proxy-target-class="true"></aop:config>
+	<!-- 开启shiro注解支持 -->
+	<bean
+			class="
+org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+		<property name="securityManager" ref="securityManager" />
+	</bean>
 </beans>

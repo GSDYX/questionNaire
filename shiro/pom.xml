@@ -10,15 +10,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>user</artifactId>
+    <artifactId>shiro</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>user-pojo</module>
-        <module>user-mapper</module>
-        <module>user-service</module>
-        <module>user-web</module>
+        <module>shiro-service</module>
+        <module>shiro-web</module>
     </modules>
-
     <dependencies>
         <!-- 依赖common工程 -->
         <dependency>
@@ -63,4 +60,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
