@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>user</artifactId>
+        <artifactId>shiro</artifactId>
         <groupId>QN</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>user-web</artifactId>
+    <artifactId>shiro-web</artifactId>
     <packaging>war</packaging>
     <name>user-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
@@ -67,6 +67,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>user-web</finalName>
+        <finalName>shiro-web</finalName>
     </build>
 </project>

@@ -34,10 +34,10 @@
             <param-value>true</param-value>
         </init-param>
         <!--&lt;!&ndash; 设置spring容器filter的bean id，如果不设置则找与filter-name一致的bean&ndash;&gt;-->
-        <!--<init-param>-->
-        <!--<param-name>targetBeanName</param-name>-->
-        <!--<param-value>shiroFilter</param-value>-->
-        <!--</init-param>-->
+        <init-param>
+        <param-name>targetBeanName</param-name>
+        <param-value>shiroFilter</param-value>
+        </init-param>
     </filter>
     <filter-mapping>
         <filter-name>shiroFilter</filter-name>
