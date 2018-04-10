@@ -30,10 +30,10 @@
 
     <!-- 安全管理器 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
-        <property name="realm" ref="userRealm" />
+        <property name="realm" ref="customRealm" />
     </bean>
 
     <!-- 自定义 realm -->
-    <bean id="userRealm" class="shiro.realm.CustomRealm">
+    <bean id="customRealm" class="shiro.realm.CustomRealm">
     </bean>
 </beans>

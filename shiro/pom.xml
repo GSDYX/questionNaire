@@ -13,6 +13,8 @@
     <artifactId>shiro</artifactId>
     <packaging>pom</packaging>
     <modules>
+        <module>shiro-pojo</module>
+        <module>shiro-mapper</module>
         <module>shiro-service</module>
         <module>shiro-web</module>
     </modules>

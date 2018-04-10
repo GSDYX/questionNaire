@@ -22,7 +22,10 @@
       <module fileurl="file://$PROJECT_DIR$/portal/portal-service/portal-service.iml" filepath="$PROJECT_DIR$/portal/portal-service/portal-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-web/portal-web.iml" filepath="$PROJECT_DIR$/portal/portal-web/portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro.iml" filepath="$PROJECT_DIR$/shiro/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro/shiro-mapper/shiro-mapper.iml" filepath="$PROJECT_DIR$/shiro/shiro-mapper/shiro-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro/shiro-pojo/shiro-pojo.iml" filepath="$PROJECT_DIR$/shiro/shiro-pojo/shiro-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro-service/shiro-service.iml" filepath="$PROJECT_DIR$/shiro/shiro-service/shiro-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro/shiro-web/shiro-web.iml" filepath="$PROJECT_DIR$/shiro/shiro-web/shiro-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro/shiro-web/shiro-web.iml" filepath="$PROJECT_DIR$/shiro/shiro-web/shiro-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user-mapper/user-mapper.iml" filepath="$PROJECT_DIR$/user/user-mapper/user-mapper.iml" />

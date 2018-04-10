@@ -16,6 +16,7 @@
         <module>../user</module>
         <module>../naire</module>
         <module>../shiro</module>
+        <module>../shiro</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

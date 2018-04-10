@@ -1,30 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>shiro</artifactId>
+        <artifactId>user</artifactId>
         <groupId>QN</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>shiro-web</artifactId>
+    <artifactId>user-web</artifactId>
     <packaging>war</packaging>
-
-    <name>shiro-web Maven Webapp</name>
-    <url>http://www.example.com</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
+    <name>user-web Maven Webapp</name>
+    <url>http://maven.apache.org</url>
 
     <dependencies>
         <dependency>
             <groupId>QN</groupId>
             <artifactId>shiro-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>QN</groupId>
+            <artifactId>shiro-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -72,6 +67,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>portal-web</finalName>
+        <finalName>user-web</finalName>
     </build>
 </project>

@@ -24,17 +24,21 @@
         <module name="portal-service" />
         <module name="portal-web" />
         <module name="service" />
+        <module name="shiro-mapper" />
+        <module name="shiro-pojo" />
         <module name="shiro-service" />
         <module name="shiro-web" />
         <module name="user-mapper" />
         <module name="user-pojo" />
         <module name="user-service" />
         <module name="user-web" />
+        <module name="user-web (1)" />
         <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.7" />
+      <module name="demo" target="1.7" />
       <module name="manager" target="1.7" />
       <module name="manager-mapper" target="1.7" />
       <module name="manager-pojo" target="1.7" />
@@ -59,13 +63,17 @@
       <module name="protal-service" target="1.7" />
       <module name="service" target="1.7" />
       <module name="shiro" target="1.7" />
+      <module name="shiro-mapper" target="1.7" />
+      <module name="shiro-pojo" target="1.7" />
       <module name="shiro-service" target="1.7" />
       <module name="shiro-web" target="1.7" />
+      <module name="shrio-pojo" target="1.7" />
       <module name="user" target="1.7" />
       <module name="user-mapper" target="1.7" />
       <module name="user-pojo" target="1.7" />
       <module name="user-service" target="1.7" />
       <module name="user-web" target="1.7" />
+      <module name="user-web (1)" target="1.7" />
       <module name="vue" target="1.7" />
       <module name="web" target="1.7" />
     </bytecodeTargetLevel>
