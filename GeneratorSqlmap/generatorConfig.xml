@@ -43,6 +43,10 @@
 		</javaClientGenerator>
 		<!-- 指定数据库表 -->
 		<table schema="" tableName="user"></table>
+		<table schema="" tableName="role"></table>
+		<table schema="" tableName="permission"></table>
+		<table schema="" tableName="user_role"></table>
+		<table schema="" tableName="role_permission"></table>
 
 	</context>
 </generatorConfiguration>
