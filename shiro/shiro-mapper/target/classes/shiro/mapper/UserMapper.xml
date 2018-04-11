@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="shiro.mapper.UserMapper" >
   <resultMap id="BaseResultMap" type="shiro.pojo.User" >
-    <id column="user_id" property="userId" jdbcType="INTEGER" />
+    <id column="userId" property="userid" jdbcType="INTEGER" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="email" property="email" jdbcType="VARCHAR" />
@@ -68,7 +68,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    user_id, username, password, email, status, activationCode
+    userId, username, password, email, status, activationCode
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="shiro.pojo.UserExample" >
     select
@@ -88,11 +88,11 @@
     select 
     <include refid="Base_Column_List" />
     from user
-    where user_id = #{userId,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from user
-    where user_id = #{userId,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </delete>
   <delete id="deleteByExample" parameterType="shiro.pojo.UserExample" >
     delete from user
@@ -101,18 +101,18 @@
     </if>
   </delete>
   <insert id="insert" parameterType="shiro.pojo.User" >
-    insert into user (user_id, username, password, 
+    insert into user (userId, username, password, 
       email, status, activationCode
       )
-    values (#{userId,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+    values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{email,jdbcType=VARCHAR}, #{status,jdbcType=BIT}, #{activationcode,jdbcType=CHAR}
       )
   </insert>
   <insert id="insertSelective" parameterType="shiro.pojo.User" >
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="userId != null" >
-        user_id,
+      <if test="userid != null" >
+        userId,
       </if>
       <if test="username != null" >
         username,
@@ -131,8 +131,8 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="userId != null" >
-        #{userId,jdbcType=INTEGER},
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
       </if>
       <if test="username != null" >
         #{username,jdbcType=VARCHAR},
@@ -160,8 +160,8 @@
   <update id="updateByExampleSelective" parameterType="map" >
     update user
     <set >
-      <if test="record.userId != null" >
-        user_id = #{record.userId,jdbcType=INTEGER},
+      <if test="record.userid != null" >
+        userId = #{record.userid,jdbcType=INTEGER},
       </if>
       <if test="record.username != null" >
         username = #{record.username,jdbcType=VARCHAR},
@@ -185,7 +185,7 @@
   </update>
   <update id="updateByExample" parameterType="map" >
     update user
-    set user_id = #{record.userId,jdbcType=INTEGER},
+    set userId = #{record.userid,jdbcType=INTEGER},
       username = #{record.username,jdbcType=VARCHAR},
       password = #{record.password,jdbcType=VARCHAR},
       email = #{record.email,jdbcType=VARCHAR},
@@ -214,7 +214,7 @@
         activationCode = #{activationcode,jdbcType=CHAR},
       </if>
     </set>
-    where user_id = #{userId,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="shiro.pojo.User" >
     update user
@@ -223,6 +223,6 @@
       email = #{email,jdbcType=VARCHAR},
       status = #{status,jdbcType=BIT},
       activationCode = #{activationcode,jdbcType=CHAR}
-    where user_id = #{userId,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </update>
 </mapper>

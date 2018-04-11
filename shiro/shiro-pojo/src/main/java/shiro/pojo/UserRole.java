@@ -1,33 +1,33 @@
 package shiro.pojo;
 
 public class UserRole {
-    private Integer userRoleId;
+    private Integer userroleid;
 
-    private Integer userId;
+    private Integer userid;
 
-    private Integer roleId;
+    private Integer roleid;
 
-    public Integer getUserRoleId() {
-        return userRoleId;
+    public Integer getUserroleid() {
+        return userroleid;
     }
 
-    public void setUserRoleId(Integer userRoleId) {
-        this.userRoleId = userRoleId;
+    public void setUserroleid(Integer userroleid) {
+        this.userroleid = userroleid;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getUserid() {
+        return userid;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setUserid(Integer userid) {
+        this.userid = userid;
     }
 
-    public Integer getRoleId() {
-        return roleId;
+    public Integer getRoleid() {
+        return roleid;
     }
 
-    public void setRoleId(Integer roleId) {
-        this.roleId = roleId;
+    public void setRoleid(Integer roleid) {
+        this.roleid = roleid;
     }
 }

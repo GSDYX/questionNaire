@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface PermissionMapperCustom {
     //根据用户id查询权限权限
-    public List<Permission> findPermissionListByUserId(Integer userid)throws Exception;
+     List<Permission> findPermissionListByUserId(int userid)throws Exception;
 }

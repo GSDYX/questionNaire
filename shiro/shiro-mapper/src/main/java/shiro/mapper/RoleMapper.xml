@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="shiro.mapper.RoleMapper" >
   <resultMap id="BaseResultMap" type="shiro.pojo.Role" >
-    <id column="role_id" property="roleId" jdbcType="INTEGER" />
-    <result column="role_name" property="roleName" jdbcType="VARCHAR" />
+    <id column="roleId" property="roleid" jdbcType="INTEGER" />
+    <result column="roleName" property="rolename" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -64,7 +64,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    role_id, role_name
+    roleId, roleName
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="shiro.pojo.RoleExample" >
     select
@@ -84,11 +84,11 @@
     select 
     <include refid="Base_Column_List" />
     from role
-    where role_id = #{roleId,jdbcType=INTEGER}
+    where roleId = #{roleid,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from role
-    where role_id = #{roleId,jdbcType=INTEGER}
+    where roleId = #{roleid,jdbcType=INTEGER}
   </delete>
   <delete id="deleteByExample" parameterType="shiro.pojo.RoleExample" >
     delete from role
@@ -97,25 +97,25 @@
     </if>
   </delete>
   <insert id="insert" parameterType="shiro.pojo.Role" >
-    insert into role (role_id, role_name)
-    values (#{roleId,jdbcType=INTEGER}, #{roleName,jdbcType=VARCHAR})
+    insert into role (roleId, roleName)
+    values (#{roleid,jdbcType=INTEGER}, #{rolename,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="shiro.pojo.Role" >
     insert into role
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="roleId != null" >
-        role_id,
+      <if test="roleid != null" >
+        roleId,
       </if>
-      <if test="roleName != null" >
-        role_name,
+      <if test="rolename != null" >
+        roleName,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="roleId != null" >
-        #{roleId,jdbcType=INTEGER},
+      <if test="roleid != null" >
+        #{roleid,jdbcType=INTEGER},
       </if>
-      <if test="roleName != null" >
-        #{roleName,jdbcType=VARCHAR},
+      <if test="rolename != null" >
+        #{rolename,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -128,11 +128,11 @@
   <update id="updateByExampleSelective" parameterType="map" >
     update role
     <set >
-      <if test="record.roleId != null" >
-        role_id = #{record.roleId,jdbcType=INTEGER},
+      <if test="record.roleid != null" >
+        roleId = #{record.roleid,jdbcType=INTEGER},
       </if>
-      <if test="record.roleName != null" >
-        role_name = #{record.roleName,jdbcType=VARCHAR},
+      <if test="record.rolename != null" >
+        roleName = #{record.rolename,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -141,8 +141,8 @@
   </update>
   <update id="updateByExample" parameterType="map" >
     update role
-    set role_id = #{record.roleId,jdbcType=INTEGER},
-      role_name = #{record.roleName,jdbcType=VARCHAR}
+    set roleId = #{record.roleid,jdbcType=INTEGER},
+      roleName = #{record.rolename,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -150,15 +150,15 @@
   <update id="updateByPrimaryKeySelective" parameterType="shiro.pojo.Role" >
     update role
     <set >
-      <if test="roleName != null" >
-        role_name = #{roleName,jdbcType=VARCHAR},
+      <if test="rolename != null" >
+        roleName = #{rolename,jdbcType=VARCHAR},
       </if>
     </set>
-    where role_id = #{roleId,jdbcType=INTEGER}
+    where roleId = #{roleid,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="shiro.pojo.Role" >
     update role
-    set role_name = #{roleName,jdbcType=VARCHAR}
-    where role_id = #{roleId,jdbcType=INTEGER}
+    set roleName = #{rolename,jdbcType=VARCHAR}
+    where roleId = #{roleid,jdbcType=INTEGER}
   </update>
 </mapper>

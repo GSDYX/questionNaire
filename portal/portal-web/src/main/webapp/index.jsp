@@ -13,7 +13,8 @@
 </head>
 <body>
 <h1>问卷调查系统</h1>
-<a href="/user/userLoginJump">用户登入</a>
-<a href="/user/userSignupJump">用户注册</a>
+<a href="/shiro/loginJump">用户登入</a>
+<a href="/shiro/userSignupJump">用户注册</a>
+<a href="/shiro/test.jsp">test</a>
 </body>
 </html>

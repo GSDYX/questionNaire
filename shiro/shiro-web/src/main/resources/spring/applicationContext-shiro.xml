@@ -26,8 +26,8 @@
                 /styles/** = anon
                 <!-- 验证码，可匿名访问 -->
                 /validatecode.jsp=anon
-                <!--首页-->
-                / = anon
+                /userSignupJump=anon
+                /userSignup=anon
                 <!-- 请求 logout.action地址，shiro去清除session-->
                 /logout = logout
                 <!--商品查询需要商品查询权限 ，取消url拦截配置，使用注解授权方式 -->
@@ -52,6 +52,8 @@
         <property name="sessionManager" ref="sessionManager" />
         <!-- 记住我 -->
         <property name="rememberMeManager" ref="rememberMeManager"/>
+        <!--注入缓存管理器-->
+        <property name="cacheManager" ref="cacheManager"/>
     </bean>
 
     <!-- 自定义 realm -->
@@ -65,6 +67,10 @@
         <property name="deleteInvalidSessions" value="true"/>
     </bean>
 
+    <!-- 缓存管理器 -->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:spring/shiro-ehcache.xml"/>
+    </bean>
     <!-- 自定义form认证过虑器 -->
     <!-- 基于Form表单的身份验证过滤器，不配置将也会注册此过虑器，表单中的用户账号、密码及loginurl将采用默认值，建议配置 -->
     <bean id="formAuthenticationFilter"

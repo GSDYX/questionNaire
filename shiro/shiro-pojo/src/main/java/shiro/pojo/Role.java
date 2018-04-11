@@ -1,23 +1,23 @@
 package shiro.pojo;
 
 public class Role {
-    private Integer roleId;
+    private Integer roleid;
 
-    private String roleName;
+    private String rolename;
 
-    public Integer getRoleId() {
-        return roleId;
+    public Integer getRoleid() {
+        return roleid;
     }
 
-    public void setRoleId(Integer roleId) {
-        this.roleId = roleId;
+    public void setRoleid(Integer roleid) {
+        this.roleid = roleid;
     }
 
-    public String getRoleName() {
-        return roleName;
+    public String getRolename() {
+        return rolename;
     }
 
-    public void setRoleName(String roleName) {
-        this.roleName = roleName == null ? null : roleName.trim();
+    public void setRolename(String rolename) {
+        this.rolename = rolename == null ? null : rolename.trim();
     }
 }

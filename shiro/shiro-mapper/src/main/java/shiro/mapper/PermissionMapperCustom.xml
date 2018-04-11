@@ -4,23 +4,23 @@
 
 
     <!-- 根据用户id查询权限 -->
-    <select id="findPermissionListByUserId" parameterType="Integer" resultType="shiro.pojo.Permission">
+    <select id="findPermissionListByUserId" parameterType="int" resultType="shiro.pojo.Permission">
         SELECT
         *
         FROM
         permission
         WHERE
-        permission_id IN
+        permissionId IN
         (SELECT
-        permission_id
+        permissionId
         FROM
         role_permission
-        WHERE role_id IN
+        WHERE roleId IN
         (SELECT
-        role_id
+        roleId
         FROM
         user_role
-        WHERE user_id = #{id}))
+        WHERE userId = #{userid}))
     </select>
 
 

@@ -15,5 +15,5 @@ public interface ShiroService {
     User findUserByUsername(String username)throws Exception;
 
     //根据用户id查询权限
-     List<Permission> findPermissionListByUserId(Integer userid) throws Exception;
+     List<Permission> findPermissionListByUserId(int userid) throws Exception;
 }

@@ -1,23 +1,23 @@
 package shiro.pojo;
 
 public class Permission {
-    private Integer permissionId;
+    private Integer permissionid;
 
-    private String permissionName;
+    private String permissionname;
 
-    public Integer getPermissionId() {
-        return permissionId;
+    public Integer getPermissionid() {
+        return permissionid;
     }
 
-    public void setPermissionId(Integer permissionId) {
-        this.permissionId = permissionId;
+    public void setPermissionid(Integer permissionid) {
+        this.permissionid = permissionid;
     }
 
-    public String getPermissionName() {
-        return permissionName;
+    public String getPermissionname() {
+        return permissionname;
     }
 
-    public void setPermissionName(String permissionName) {
-        this.permissionName = permissionName == null ? null : permissionName.trim();
+    public void setPermissionname(String permissionname) {
+        this.permissionname = permissionname == null ? null : permissionname.trim();
     }
 }

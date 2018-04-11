@@ -62,7 +62,7 @@ public class CustomRealm extends AuthorizingRealm {
         //UserCustom就是用户身份信息
         UserCustom userCustom = new UserCustom();
 
-        userCustom.setUserid(user.getUserId());
+        userCustom.setUserid(user.getUserid());
         userCustom.setUsername(user.getUsername());
 
 
@@ -88,11 +88,11 @@ public class CustomRealm extends AuthorizingRealm {
 
         //根据身份信息获取权限信息
         //从数据库获取到权限数据
-        List<Permission> permissionList = null;
+
+        List<Permission> permissionList= null;
         try {
             permissionList = shiroService.findPermissionListByUserId(userCustom.getUserid());
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         //单独定一个集合对象 
@@ -100,17 +100,10 @@ public class CustomRealm extends AuthorizingRealm {
         if(permissionList!=null){
             for(Permission permission:permissionList){
                 //将数据库中的权限标签 符放入集合
-                permissions.add(permission.getPermissionName());
+                permissions.add(permission.getPermissionname());
             }
         }
-		
-		
-	/*	List<String> permissions = new ArrayList<String>();
-		permissions.add("user:create");//用户的创建
-		permissions.add("item:query");//商品查询权限
-		permissions.add("item:add");//商品添加权限
-		permissions.add("item:edit");//商品修改权限
-*/		//....
+
 
         //查到权限数据，返回授权信息(要包括 上边的permissions)
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();

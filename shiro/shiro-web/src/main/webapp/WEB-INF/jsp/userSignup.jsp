@@ -14,7 +14,7 @@
 <body>
 <form action="<c:url value='/userSignup'/>" method="post">
     <input type="text" name="username">
-    <input type="text" name="userpwd">
+    <input type="text" name="password">
     <input type="submit" value="提交">
 </form>
 </body>

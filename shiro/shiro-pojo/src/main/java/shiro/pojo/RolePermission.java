@@ -1,33 +1,33 @@
 package shiro.pojo;
 
 public class RolePermission {
-    private Integer rolePermissionId;
+    private Integer rolepermissionid;
 
-    private Integer roleId;
+    private Integer roleid;
 
-    private Integer permissionId;
+    private Integer permissionid;
 
-    public Integer getRolePermissionId() {
-        return rolePermissionId;
+    public Integer getRolepermissionid() {
+        return rolepermissionid;
     }
 
-    public void setRolePermissionId(Integer rolePermissionId) {
-        this.rolePermissionId = rolePermissionId;
+    public void setRolepermissionid(Integer rolepermissionid) {
+        this.rolepermissionid = rolepermissionid;
     }
 
-    public Integer getRoleId() {
-        return roleId;
+    public Integer getRoleid() {
+        return roleid;
     }
 
-    public void setRoleId(Integer roleId) {
-        this.roleId = roleId;
+    public void setRoleid(Integer roleid) {
+        this.roleid = roleid;
     }
 
-    public Integer getPermissionId() {
-        return permissionId;
+    public Integer getPermissionid() {
+        return permissionid;
     }
 
-    public void setPermissionId(Integer permissionId) {
-        this.permissionId = permissionId;
+    public void setPermissionid(Integer permissionid) {
+        this.permissionid = permissionid;
     }
 }

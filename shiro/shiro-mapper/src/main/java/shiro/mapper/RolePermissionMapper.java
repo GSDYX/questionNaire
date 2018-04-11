@@ -11,7 +11,7 @@ public interface RolePermissionMapper {
 
     int deleteByExample(RolePermissionExample example);
 
-    int deleteByPrimaryKey(Integer rolePermissionId);
+    int deleteByPrimaryKey(Integer rolepermissionid);
 
     int insert(RolePermission record);
 
@@ -19,7 +19,7 @@ public interface RolePermissionMapper {
 
     List<RolePermission> selectByExample(RolePermissionExample example);
 
-    RolePermission selectByPrimaryKey(Integer rolePermissionId);
+    RolePermission selectByPrimaryKey(Integer rolepermissionid);
 
     int updateByExampleSelective(@Param("record") RolePermission record, @Param("example") RolePermissionExample example);
 

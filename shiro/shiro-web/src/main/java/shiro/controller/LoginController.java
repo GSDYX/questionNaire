@@ -2,6 +2,7 @@ package shiro.controller;
 
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 public class LoginController {
     @RequestMapping("/loginJump")
     public String loginJump() {
-        return "userLogin";
+        return "login";
     }
 
     @RequestMapping("/unauthorizedJump")
@@ -41,7 +42,12 @@ public class LoginController {
         }
         //此方法不处理登陆成功（认证成功），shiro认证成功会自动跳转到上一个请求路径
         //登陆失败还到login页面
-        return "userLogin";
+        return "login";
     }
 
+    @RequestMapping("/createItem")
+    @RequiresPermissions("item:view")
+    public String createItem()throws Exception {
+        return "message";
+    }
 }

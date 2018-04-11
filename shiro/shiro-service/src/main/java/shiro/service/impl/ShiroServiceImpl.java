@@ -41,16 +41,16 @@ public class ShiroServiceImpl implements ShiroService {
             throw new ExceptionCustom("用户名或密码 错误");
         }
         //得到用户id
-        Integer userid = user.getUserId();
-        //根据用户id查询菜单
+        Integer userid = user.getUserid();
 
 
-        //根据用户id查询权限url
+
+        //根据用户id查询权限
         List<Permission> permissions = this.findPermissionListByUserId(userid);
 
         //认证通过，返回用户身份信息
         UserCustom userCustom = new UserCustom();
-        userCustom.setUserid(user.getUserId());
+        userCustom.setUserid(user.getUserid());
         userCustom.setUsername(username);
         userCustom.setUsername(user.getUsername());//用户名称
 
@@ -76,7 +76,7 @@ public class ShiroServiceImpl implements ShiroService {
     }
 
     @Override
-    public List<Permission> findPermissionListByUserId(Integer userid) throws Exception {
+    public List<Permission> findPermissionListByUserId(int userid) throws Exception {
         return PermissionMapperCustom.findPermissionListByUserId(userid);
     }
 }

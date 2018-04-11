@@ -1,7 +1,7 @@
 package shiro.pojo;
 
 public class User {
-    private Integer userId;
+    private Integer userid;
 
     private String username;
 
@@ -13,12 +13,12 @@ public class User {
 
     private String activationcode;
 
-    public Integer getUserId() {
-        return userId;
+    public Integer getUserid() {
+        return userid;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setUserid(Integer userid) {
+        this.userid = userid;
     }
 
     public String getUsername() {
