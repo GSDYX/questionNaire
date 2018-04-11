@@ -12,5 +12,6 @@
 </head>
 <body>
 <a href="/loginJump">用户登入</a>
+<a href="/test.jsp">test</a>
 </body>
 </html>
