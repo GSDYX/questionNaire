@@ -7,6 +7,9 @@
           <element id="module-output" name="shiro-web" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="shiro-web-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shiro-web" />
+          </element>
           <element id="archive" name="shiro-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shiro-service" />
           </element>

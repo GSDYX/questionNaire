@@ -12,8 +12,11 @@ public interface ShiroService {
     UserCustom authenticat(String username, String password) throws Exception;
 
     //根据用户账号查询用户信息
-    User findUserByUsername(String username)throws Exception;
+    User findUserByUsername(String username) throws Exception;
 
     //根据用户id查询权限
-     List<Permission> findPermissionListByUserId(int userid) throws Exception;
+    List<Permission> findPermissionListByUserId(int userid) throws Exception;
+
+    //     根据id查询角色
+    String findRoleListByUserId(int userid) throws Exception;
 }

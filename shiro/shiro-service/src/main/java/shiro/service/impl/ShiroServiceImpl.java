@@ -4,11 +4,9 @@ import exception.ExceptionCustom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import shiro.mapper.PermissionMapperCustom;
+import shiro.mapper.RoleMapperCustom;
 import shiro.mapper.UserMapper;
-import shiro.pojo.Permission;
-import shiro.pojo.User;
-import shiro.pojo.UserCustom;
-import shiro.pojo.UserExample;
+import shiro.pojo.*;
 import shiro.service.ShiroService;
 
 import java.util.List;
@@ -16,10 +14,12 @@ import java.util.List;
 public class ShiroServiceImpl implements ShiroService {
 
     @Autowired
-    private UserMapper UserMapper;
+    private UserMapper userMapper;
 
     @Autowired
-    private PermissionMapperCustom PermissionMapperCustom;
+    private PermissionMapperCustom permissionMapperCustom;
+    @Autowired
+    private RoleMapperCustom roleMapperCustom;
 
     @Override
     public UserCustom authenticat(String username, String password) throws Exception {
@@ -59,14 +59,14 @@ public class ShiroServiceImpl implements ShiroService {
 
         return userCustom;
     }
-
+//根据用户名获取用户信息
     @Override
     public User findUserByUsername(String username) throws Exception {
-        UserExample UserExample = new UserExample();
-        UserExample.Criteria criteria = UserExample.createCriteria();
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
         criteria.andUsernameEqualTo(username);
 
-        List<User> list = UserMapper.selectByExample(UserExample);
+        List<User> list = userMapper.selectByExample(userExample);
 
         if(list!=null && list.size()==1){
             return list.get(0);
@@ -74,9 +74,15 @@ public class ShiroServiceImpl implements ShiroService {
 
         return null;
     }
+//    根据id获取权限信息
 
     @Override
     public List<Permission> findPermissionListByUserId(int userid) throws Exception {
-        return PermissionMapperCustom.findPermissionListByUserId(userid);
+        return permissionMapperCustom.findPermissionListByUserId(userid);
+    }
+
+    @Override
+    public String findRoleListByUserId(int userid) throws Exception {
+        return roleMapperCustom.findRoleListByUserId(userid);
     }
 }

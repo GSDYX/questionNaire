@@ -9,6 +9,8 @@ import javax.servlet.http.HttpSession;
 
 public class CustomFormAuthenticationFilter extends FormAuthenticationFilter {
 
+
+
     //原FormAuthenticationFilter的认证方法
     @Override
     protected boolean onAccessDenied(ServletRequest request,
@@ -33,5 +35,25 @@ public class CustomFormAuthenticationFilter extends FormAuthenticationFilter {
         return super.onAccessDenied(request, response);
     }
 
+
+
+//重写successurl跳转
+//    @Override
+//    protected boolean onLoginSuccess(AuthenticationToken token, Subject subject, ServletRequest request, ServletResponse response) throws Exception {
+//        WebUtils.getAndClearSavedRequest(request);
+//        WebUtils.redirectToSavedRequest(request, response, "/roleJump");
+//        return false;
+//    }
+//
+//    @Override
+//    protected boolean onLoginFailure(AuthenticationToken token, AuthenticationException e, ServletRequest request, ServletResponse response) {
+//        return super.onLoginFailure(token, e, request, response);
+//    }
+
+//    private final String successUrl = "/roleJump";
+//    @Override
+//    protected void issueSuccessRedirect(ServletRequest request, ServletResponse response) throws Exception {
+//        WebUtils.issueRedirect(request, response, successUrl, null, true);
+//    }
 
 }

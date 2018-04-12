@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="shiro.mapper.RoleMapperCustom" >
+
+
+    <!-- 根据用户id查询权限 -->
+    <select id="findRoleListByUserId" parameterType="int" resultType="String">
+        SELECT
+        roleName
+        FROM
+        role
+        WHERE roleId IN
+        (SELECT
+        roleId
+        FROM
+        user_role
+        WHERE userId = #{userid})
+    </select>
+
+
+</mapper>

@@ -39,4 +39,7 @@
             </props>
         </property>
     </bean>
+    <!--<mvc:annotation-driven />-->
+    <!--&lt;!&ndash; 扫描的包 &ndash;&gt;-->
+    <!--<context:component-scan base-package="shiro.controller,shiro.realm" />-->
 </beans>

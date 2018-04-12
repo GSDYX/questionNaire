@@ -49,12 +49,11 @@ public class CustomRealm extends AuthorizingRealm {
         }
 
         // 如果查询不到返回null
-        if(user==null){//
+        if (user == null) {//
             return null;
         }
         // 从数据库查询到密码
         String password = user.getPassword();
-
 
 
         // 如果查询到返回认证信息AuthenticationInfo
@@ -66,15 +65,12 @@ public class CustomRealm extends AuthorizingRealm {
         userCustom.setUsername(user.getUsername());
 
 
-
-
         //将UserCustom设置simpleAuthenticationInfo
         SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(
                 userCustom, password, this.getName());
 
         return simpleAuthenticationInfo;
     }
-
 
 
     // 用于授权
@@ -84,12 +80,12 @@ public class CustomRealm extends AuthorizingRealm {
 
         //从 principals获取主身份信息
         //将getPrimaryPrincipal方法返回值转为真实身份类型（在上边的doGetAuthenticationInfo认证通过填充到SimpleAuthenticationInfo中身份类型），
-        UserCustom userCustom =  (UserCustom) principals.getPrimaryPrincipal();
+        UserCustom userCustom = (UserCustom) principals.getPrimaryPrincipal();
 
         //根据身份信息获取权限信息
         //从数据库获取到权限数据
 
-        List<Permission> permissionList= null;
+        List<Permission> permissionList = null;
         try {
             permissionList = shiroService.findPermissionListByUserId(userCustom.getUserid());
         } catch (Exception e) {
@@ -97,24 +93,28 @@ public class CustomRealm extends AuthorizingRealm {
         }
         //单独定一个集合对象 
         List<String> permissions = new ArrayList<String>();
-        if(permissionList!=null){
-            for(Permission permission:permissionList){
+        if (permissionList != null) {
+            for (Permission permission : permissionList) {
                 //将数据库中的权限标签 符放入集合
                 permissions.add(permission.getPermissionname());
             }
         }
-
+        //查询用户角色
+        String roleName = null;
+        try {
+            roleName = shiroService.findRoleListByUserId(userCustom.getUserid());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         //查到权限数据，返回授权信息(要包括 上边的permissions)
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
         //将上边查询到授权信息填充到simpleAuthorizationInfo对象中
         simpleAuthorizationInfo.addStringPermissions(permissions);
-
+//        将角色信息填充到对象中
+        simpleAuthorizationInfo.addRole(roleName);
         return simpleAuthorizationInfo;
     }
-
-
-
 
 
 }
