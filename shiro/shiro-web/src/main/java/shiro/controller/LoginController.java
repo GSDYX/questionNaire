@@ -1,7 +1,9 @@
 package shiro.controller;
 
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
+import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -47,16 +49,16 @@ public class LoginController {
         return "login";
     }
 
-//    @RequestMapping("/roleJump")
-//    public String userOrManagerJump() {
-//        Subject subject = SecurityUtils.getSubject();
-//        if (subject.hasRole("user")) {
-//            return "index";
-//        } else {
-//            return "managerHome";
-//        }
-//        return "role";
-//    }
+    @RequestMapping("/roleJump")
+    public String userOrManagerJump() {
+        Subject subject = SecurityUtils.getSubject();
+        if (subject.hasRole("user")) {
+            return "a";
+        } else {
+            return "b";
+        }
+
+    }
 
 
 }

@@ -42,6 +42,7 @@
         <jedis.version>2.7.2</jedis.version>
         <solrj.version>4.10.3</solrj.version>
         <shiro.version>1.2.3</shiro.version>
+
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -92,6 +93,7 @@
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+
             <!-- Mybatis -->
             <dependency>
                 <groupId>org.mybatis</groupId>

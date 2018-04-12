@@ -1,6 +1,7 @@
 package shiro.realm;
 
 import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
+import org.apache.shiro.web.util.WebUtils;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -50,10 +51,10 @@ public class CustomFormAuthenticationFilter extends FormAuthenticationFilter {
 //        return super.onLoginFailure(token, e, request, response);
 //    }
 
-//    private final String successUrl = "/roleJump";
-//    @Override
-//    protected void issueSuccessRedirect(ServletRequest request, ServletResponse response) throws Exception {
-//        WebUtils.issueRedirect(request, response, successUrl, null, true);
-//    }
+    private final String successUrl = "/roleJump";
+    @Override
+    protected void issueSuccessRedirect(ServletRequest request, ServletResponse response) throws Exception {
+        WebUtils.issueRedirect(request, response, successUrl, null, true);
+    }
 
 }
