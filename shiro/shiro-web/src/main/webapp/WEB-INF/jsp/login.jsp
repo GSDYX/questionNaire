@@ -16,8 +16,8 @@
 <body>
 ${exception}
 <form action="<c:url value='/login'/>" method="post">
-    <input type="text" name="username" value="user ">
-    <input type="text" name="password" value="user">
+    <input type="text" name="username" value="admin">
+    <input type="text" name="password" value="admin">
     <input type="submit" value="提交">
     <TR>
         <TD>验证码：</TD>

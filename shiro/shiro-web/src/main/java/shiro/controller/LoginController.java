@@ -55,7 +55,7 @@ public class LoginController {
         if (subject.hasRole("user")) {
             return "a";
         } else {
-            return "b";
+            return "managerHomeJump";
         }
 
     }

@@ -21,7 +21,7 @@
 		</javaTypeResolver>
 
 		<!-- targetProject:生成PO类的位置 -->
-		<javaModelGenerator targetPackage="shiro.pojo"
+		<javaModelGenerator targetPackage="manager.pojo"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
@@ -29,24 +29,20 @@
 			<property name="trimStrings" value="true" />
 		</javaModelGenerator>
         <!-- targetProject:mapper映射文件生成的位置 -->
-		<sqlMapGenerator targetPackage="shiro.mapper"
+		<sqlMapGenerator targetPackage="manager.mapper"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
 		<!-- targetPackage：mapper接口生成的位置 -->
 		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="shiro.mapper"
+			targetPackage="manager.mapper"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		<!-- 指定数据库表 -->
 		<table schema="" tableName="user"></table>
-		<table schema="" tableName="role"></table>
-		<table schema="" tableName="permission"></table>
-		<table schema="" tableName="user_role"></table>
-		<table schema="" tableName="role_permission"></table>
 
 	</context>
 </generatorConfiguration>

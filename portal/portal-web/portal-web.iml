@@ -47,6 +47,10 @@
     <orderEntry type="module" module-name="shiro-service" />
     <orderEntry type="module" module-name="shiro-mapper" />
     <orderEntry type="module" module-name="shiro-pojo" />
+    <orderEntry type="module" module-name="manager-web" />
+    <orderEntry type="module" module-name="manager-service" />
+    <orderEntry type="module" module-name="manager-mapper" />
+    <orderEntry type="module" module-name="manager-pojo" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-web:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-spring:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-ehcache:1.2.3" level="project" />

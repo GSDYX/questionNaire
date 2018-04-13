@@ -45,6 +45,18 @@
           <element id="archive" name="shiro-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="shiro-pojo" />
           </element>
+          <element id="archive" name="manager-web-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="manager-web" />
+          </element>
+          <element id="archive" name="manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="manager-service" />
+          </element>
+          <element id="archive" name="manager-mapper-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="manager-mapper" />
+          </element>
+          <element id="archive" name="manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="manager-pojo" />
+          </element>
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-web:1.2.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-spring:1.2.3" />
           <element id="library" level="project" name="Maven: org.apache.shiro:shiro-ehcache:1.2.3" />
