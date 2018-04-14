@@ -2,9 +2,14 @@ package common.pojo;
 
 import java.util.List;
 
-public class PageHelperResult {
+public class PageResult {
     private long total;
     private List<?> rows;
+
+    public PageResult(long total, List<?> rows) {
+        this.total = total;
+        this.rows = rows;
+    }
 
     public long getTotal() {
         return total;

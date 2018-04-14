@@ -1,7 +1,7 @@
 package manager.service;
 
-import common.pojo.PageHelperResult;
+import com.github.pagehelper.PageInfo;
 
 public interface UserManagerService {
-    PageHelperResult getUserList(int pageNumber, int pageSize);
+    PageInfo getUserList(int pageNum, int pageSize);
 }

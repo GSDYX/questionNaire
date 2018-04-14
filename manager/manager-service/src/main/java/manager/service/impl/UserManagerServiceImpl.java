@@ -2,7 +2,6 @@ package manager.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import common.pojo.PageHelperResult;
 import manager.mapper.UserMapper;
 import manager.pojo.User;
 import manager.pojo.UserExample;
@@ -18,18 +17,13 @@ public class UserManagerServiceImpl implements UserManagerService {
     @Autowired
     private UserMapper userMapper;
 
-    public PageHelperResult getUserList(int pageNumber, int pageSize) {
+    public PageInfo getUserList(int pageNum,int pageSize) {
         //查询商品列表
         UserExample example = new UserExample();
         //分页处理
-        PageHelper.startPage(pageNumber, pageSize);
+        PageHelper.startPage(pageNum, pageSize);
         List<User> list = userMapper.selectByExample(example);
-        //创建一个返回值对象
-        PageHelperResult result = new PageHelperResult();
-        result.setRows(list);
-        //取记录总条数
         PageInfo<User> pageInfo = new PageInfo<>(list);
-        result.setTotal(pageInfo.getTotal());
-        return result;
+        return pageInfo;
     }
 }

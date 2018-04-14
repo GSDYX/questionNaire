@@ -13,7 +13,7 @@
     <title>Title</title>
 </head>
 <body>
-<a href="<c:url value='/userManagerJump'/>">用户管理</a>
+<a href="<c:url value='/userManager'/>">用户管理</a>
 <a href="<c:url value='/qnManagerJump'/>">问卷管理</a>
 </body>
 </html>
