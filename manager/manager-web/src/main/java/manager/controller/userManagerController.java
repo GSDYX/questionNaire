@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class userManagerController {
@@ -21,12 +22,12 @@ public class userManagerController {
         return "userManager";
     }
 
-//    @ResponseBody
-//    @RequestMapping("/userItems")
-//    public PageInfo getUserList(@RequestParam(required=true, defaultValue="1") int pageNum, @RequestParam(required=true, defaultValue="10") int pageSize) {
-//        PageInfo pageInfo = userManagerService.getUserList(pageNum,pageSize);
-//        return pageInfo;
-//    }
+    @ResponseBody
+    @RequestMapping("/test")
+    public PageInfo getUserList(@RequestParam(defaultValue="1") int pageNum, @RequestParam(defaultValue="10") int pageSize) {
+        PageInfo pageInfo = userManagerService.getUserList(pageNum,pageSize);
+        return pageInfo;
+    }
 
 
 
