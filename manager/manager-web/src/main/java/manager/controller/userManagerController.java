@@ -10,13 +10,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class userManagerController {
+public class UserManagerController {
 
     @Autowired
     private UserManagerService userManagerService;
-
     @RequestMapping("/userManager")
-    public String userManagerJump(Model model,@RequestParam(required=true, defaultValue="1") int pageNumber, @RequestParam(required=true, defaultValue="10") int pageSize) {
+    public String userManagerJump(Model model, @RequestParam(required=true, defaultValue="1") int pageNumber, @RequestParam(required=true, defaultValue="10") int pageSize) {
         PageInfo pageInfo = userManagerService.getUserList(pageNumber,pageSize);
         model.addAttribute("pageInfo", pageInfo);
         return "userManager";
@@ -28,7 +27,6 @@ public class userManagerController {
         PageInfo pageInfo = userManagerService.getUserList(pageNum,pageSize);
         return pageInfo;
     }
-
 
 
 }

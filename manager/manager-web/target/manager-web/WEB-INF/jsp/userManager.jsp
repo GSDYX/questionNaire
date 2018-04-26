@@ -1,3 +1,4 @@
+
 <%--
   Created by IntelliJ IDEA.
   User: GSDYX
@@ -18,8 +19,9 @@
 </head>
 <body>
 <body>
-<div style="text-align: center;">
-    <table border="1">
+<div class="row">
+    <div class="col-md-6 col-md-offset-3" >
+    <table class="table table-bordered">
         <tr>
             <th scope="col">ID</th>
             <th scope="col">用户名</th>
@@ -36,31 +38,89 @@
             </tr>
         </c:forEach>
     </table>
-    <%--<a href="userManager?pageNumber=${pageInfo.firstPage}">第一页</a>--%>
-    <%--<a href="userManager?pageNumber=${pageInfo.prePage}">上一页</a>--%>
-    <%--<a href="userManager?pageNumber=${pageInfo.nextPage}">下一页</a>--%>
-    <%--<a href="userManager?pageNumber=${pageInfo.lastPage}">最后页</a>--%>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-5" >
+
     <nav aria-label="Page navigation">
         <ul class="pagination">
-            <li><a href="userManager?pageNumber=${pageInfo.firstPage}">首页</a></li>
-            <li>
-                <a href="userManager?pageNumber=${pageInfo.prePage}" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-            </li>
 
-            <%--<li><a href="userManager?pageNumber=${pageInfo.nextPage}">2</a></li>--%>
-            <%--<li><a href="userManager?pageNumber=${pageInfo.nextPage}">3</a></li>--%>
-            <%--<li><a href="userManager?pageNumber=${pageInfo.nextPage}">4</a></li>--%>
+            <%--上一页 --%>
 
-            <li>
-                <a href="userManager?pageNumber=${pageInfo.nextPage}" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-            </li>
-            <li><a href="userManager?pageNumber=${pageInfo.lastPage}">尾页</a></li>
+                <c:choose>
+                    <c:when test="${pageInfo.pageNum eq 1 }">
+                        <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                    </c:when>
+                    <c:otherwise>
+                    <li>
+                        <a href="/manager/userManager?pageNumber=${pageInfo.pageNum-1}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span></a>
+                    </li>
+                    </c:otherwise>
+                </c:choose>
+
+
+                <c:choose>
+                    <c:when test="${pageInfo.pages <= 6 }">
+                        <c:set var="begin" value="1"/>
+                        <c:set var="end" value="${pageInfo.pages }"/>
+                    </c:when>
+                    <c:otherwise>
+                        <c:set var="begin" value="${pageInfo.pageNum-2 }"/>
+                        <c:set var="end" value="${pageInfo.pageNum + 3}"/>
+                        <c:if test="${begin < 1 }">
+                            <c:set var="begin" value="1"/>
+                            <c:set var="end" value="6"/>
+                        </c:if>
+                        <c:if test="${end > pageInfo.pages }">
+                            <c:set var="begin" value="${pageInfo.pages-5 }"/>
+                            <c:set var="end" value="${pageInfo.pages }"/>
+                        </c:if>
+                    </c:otherwise>
+                </c:choose>
+
+                <c:forEach begin="${begin }" end="${end }" var="i">
+                    <c:choose>
+                        <c:when test="${i eq pageInfo.pageNum }">
+                            <li><a href="#">${i }</a></li>
+                        </c:when>
+                        <c:otherwise>
+                            <li><a href="/manager/userManager?pageNumber=${i}">${i}</a></li>
+                        </c:otherwise>
+                    </c:choose>
+
+
+                </c:forEach>
+            <%--<li><a href="#">1</a></li>--%>
+            <%--<li><a href="#">2</a></li>--%>
+            <%--<li><a href="#">3</a></li>--%>
+            <%--<li><a href="#">4</a></li>--%>
+            <%--<li><a href="#">5</a></li>--%>
+
+
+                <%--下一页 --%>
+                <c:choose>
+                    <c:when test="${pageInfo.pageNum eq pageInfo.pages }">
+                        <li class="disabled">
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                        </li>
+                    </c:when>
+                    <c:otherwise>
+                        <li>
+                            <a href="/manager/userManager?pageNumber=${pageInfo.pageNum+1}" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </c:otherwise>
+                </c:choose>
+
         </ul>
     </nav>
+    </div>
 </div>
 </body>
 </body>

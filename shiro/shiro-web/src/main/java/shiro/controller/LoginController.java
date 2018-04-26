@@ -13,7 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class LoginController {
 
-    @RequestMapping("/loginJump")
+//    @RequestMapping("/loginJump")
+    @RequestMapping("/")
     public String loginJump() {
         return "login";
     }

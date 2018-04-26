@@ -6,6 +6,7 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="manager-web:war exploded" />
+      <artifact name="shiro-web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -78,44 +79,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/config/index.js">
+      <file leaf-file-name="managerHome.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/managerHome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+            <state relative-caret-position="462">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorld.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/src/components/HelloWorld.vue">
+      <file leaf-file-name="Ajax.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/Ajax.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="495">
+              <caret line="30" column="6" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/userManagerController.java">
+      <file leaf-file-name="userManager.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManager.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="594">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding>
+                <element signature="e#1585#1592#1#HTML" expanded="true" />
+                <element signature="e#1858#1865#1#HTML" expanded="true" />
+                <element signature="e#3919#3926#1#HTML" expanded="true" />
+                <element signature="e#4254#4261#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessInterceptor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/Interceptor/ProcessInterceptor.java">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/java/portal/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/UserManagerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/impl/UserManagerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManagerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/UserManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager/manager-pojo/src/main/java/manager/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,12 +211,25 @@
       <find>userName</find>
       <find>userPassword</find>
       <find>username</find>
+      <find>pc</find>
+      <find>pb</find>
+      <find>.tp</find>
+      <find>&lt;a href</find>
+      <find>href</find>
+      <find>pageinfo.pages</find>
+      <find>pageInfp`</find>
+      <find>pageInfp</find>
     </findStrings>
     <replaceStrings>
       <replace>common</replace>
       <replace>UserCustom</replace>
       <replace>username</replace>
       <replace>password</replace>
+      <replace>pageNumber</replace>
+      <replace>pageinfo</replace>
+      <replace>pages</replace>
+      <replace>.pages</replace>
+      <replace>pageInfo</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -165,14 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/portal/portal-web/src/main/java/portal/controller/Index.java" />
-        <option value="$PROJECT_DIR$/portal/portal-web/src/main/java/portal/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/role.jsp" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/success.jsp" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/realm/JumpFormAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/controller/DemoController.java" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/target/shiro-web/WEB-INF/classes/spring/applicationContext-shiro.xml" />
-        <option value="$PROJECT_DIR$/user/user-web/pom.xml" />
         <option value="$PROJECT_DIR$/portal/portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/resources/spring/shiro-ehcache.xml" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/resources/spring/springmvc.xml" />
@@ -182,20 +253,16 @@
         <option value="$PROJECT_DIR$/shiro/shiro-service/src/main/java/shiro/service/impl/ShiroServiceImpl.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/parent/pom.xml" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/resources/spring/applicationContext-shiro.xml" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/a.jsp" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/b.jsp" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/realm/CustomFormAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/pom.xml" />
-        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/portal/portal-web/src/main/webapp/test.jsp" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/managerJump.jsp" />
         <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/managerHomeJump.jsp" />
         <option value="$PROJECT_DIR$/GeneratorSqlmap/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/qnManager.jsp" />
-        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/qnManagerController.java" />
         <option value="$PROJECT_DIR$/manager/manager-service/src/test/java/TestPageHelper.java" />
         <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/TestPageHelper.java" />
         <option value="$PROJECT_DIR$/manager/manager-service/pom.xml" />
@@ -203,19 +270,31 @@
         <option value="$PROJECT_DIR$/manager/manager-pojo/src/main/java/manager/pojo/PagePojo.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/common/pojo/PageHelperResult.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/common/pojo/PageBean.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/common/pojo/PageResult.java" />
         <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManagerAjax.jsp" />
-        <option value="$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/impl/UserManagerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/UserManagerService.java" />
         <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/managerHome.jsp" />
         <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/Ajax.jsp" />
-        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/managerHomeJump.java" />
-        <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManager.jsp" />
         <option value="$PROJECT_DIR$/vue/config/index.js" />
         <option value="$PROJECT_DIR$/manager/manager-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/Interceptor/ProcessInterceptor.java" />
-        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/userManagerController.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/index.html" />
         <option value="$PROJECT_DIR$/vue/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/portal/portal-web/src/main/java/portal/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/Test.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/userManagerController.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/qnManagerController.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/managerHomeJump.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/QnManagerController.java" />
+        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/resources/spring/applicationContext-shiro.xml" />
+        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/common/src/main/java/common/pojo/PageResult.java" />
+        <option value="$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/impl/UserManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/UserManagerService.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/UserManagerController.java" />
+        <option value="$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManager.jsp" />
       </list>
     </option>
   </component>
@@ -263,11 +342,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/vue/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="274" />
-    <option name="y" value="-24" />
-    <option name="width" value="1698" />
-    <option name="height" value="1007" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-72" />
+    <option name="y" value="264" />
+    <option name="width" value="1942" />
+    <option name="height" value="1072" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -564,9 +643,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -607,12 +683,103 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
               <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
@@ -661,25 +828,6 @@
               <item name="manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -691,6 +839,39 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
@@ -706,30 +887,273 @@
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+              <item name="portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
               <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
               <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionNaire" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionNaire" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro-web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -750,17 +1174,19 @@
     <property name="two.files.diff.last.used.file" value="E:/demo.xml" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="manager.service" />
-      <recent name="portal.service.impl" />
-      <recent name="portal.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\css" />
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\js" />
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\fonts" />
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\js\bootstrap\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF" />
       <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\js" />
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-pojo\src\main\java\manager\pojo" />
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-mapper\src\main\java\manager\mapper" />
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\resources\spring" />
-      <recent name="E:\github\myProject\QuestionNaire\shiro\shiro-pojo\src\main\java\shiro\pojo" />
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\css" />
+      <recent name="E:\github\myProject\QuestionNaire\shiro\shiro-web\src\main\webapp\WEB-INF" />
+      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="manager.controller" />
@@ -769,12 +1195,10 @@
       <recent name="shiro.controller" />
       <recent name="user.shiro.realm" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\js" />
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\fonts" />
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\css" />
-      <recent name="E:\github\myProject\QuestionNaire\manager\manager-web\src\main\webapp\WEB-INF\js\bootstrap\js" />
-      <recent name="E:\github\myProject\QuestionNaire\portal\portal-web\src\main\webapp\WEB-INF\jsp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="manager.service" />
+      <recent name="portal.service.impl" />
+      <recent name="portal.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -880,10 +1304,14 @@
       <listeners />
     </configuration>
     <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/manager/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
+        <artifact name="shiro-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shiro" />
+          </settings>
+        </artifact>
         <artifact name="manager-web:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/manager" />
@@ -892,7 +1320,6 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_QuestionNaire_5" />
-        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -950,6 +1377,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="shiro-web:war exploded" />
           <artifact name="manager-web:war exploded" />
         </option>
       </method>
@@ -1009,6 +1437,13 @@
       <workItem from="1523710821326" duration="3147000" />
       <workItem from="1523761902679" duration="1946000" />
       <workItem from="1523772604035" duration="6869000" />
+      <workItem from="1524554229486" duration="1685000" />
+      <workItem from="1524556575539" duration="5682000" />
+      <workItem from="1524666434102" duration="6000" />
+      <workItem from="1524716558732" duration="462000" />
+      <workItem from="1524717220142" duration="237000" />
+      <workItem from="1524732588690" duration="24000" />
+      <workItem from="1524732712833" duration="21297000" />
     </task>
     <servers />
   </component>
@@ -1045,7 +1480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248167000" />
+    <option name="totallyTimeSpent" value="277560000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1057,7 +1492,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-72" y="264" width="1942" height="1072" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9504717" sideWeight="0.50536484" order="7" side_tool="true" content_ui="tabs" />
@@ -1069,18 +1504,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2004717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13188073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270366" sideWeight="0.49570817" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24174528" sideWeight="0.49445325" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278302" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9481132" sideWeight="0.4946352" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31957546" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9492925" sideWeight="0.4946352" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270366" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21298283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2805139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1091,7 +1526,7 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32665095" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32589838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1163,14 +1598,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/controller/LoginController.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1183,132 +1610,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2079">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-mapper/src/main/java/manager/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="112" column="8" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="116" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-service/src/test/java/TestPageHelper.java" />
-    <entry file="file://$PROJECT_DIR$/manager/manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/pojo.java" />
-    <entry file="file://$PROJECT_DIR$/manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/manager-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/TestPageHelper.java" />
-    <entry file="file://$PROJECT_DIR$/shiro/shiro-service/src/main/java/shiro/service/ShiroService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/js/bootstrap.min.js" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-pojo/src/main/java/manager/pojo/PagePojo.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/common/pojo/PageBean.java" />
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/properties/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/mybatis/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1316,82 +1617,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/target/manager-web/WEB-INF/classes/manager/controller/userManagerController.class">
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/target/manager-web/WEB-INF/classes/manager/controller/UserManagerController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/target/classes/manager/controller/userManagerController.class">
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/target/classes/manager/controller/UserManagerController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/common/pojo/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/impl/UserManagerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/UserManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManagerAjax.jsp" />
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/Ajax.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/qnManager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/managerHome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <element signature="e#1769#1776#1#HTML" expanded="false" />
-            <element signature="e#2243#2250#1#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,35 +1651,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/components/header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/components/home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/components/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1833">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/components/header.vue" />
+    <entry file="file://$PROJECT_DIR$/vue/src/components/home.vue" />
+    <entry file="file://$PROJECT_DIR$/vue/src/components/login.vue" />
     <entry file="file://$PROJECT_DIR$/vue/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1444,7 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,9 +1672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1523781140164" expanded="true" signature="337613:337619" ph="{&quot;version&quot;: &quot;0.2.8&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,7 +1679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-297">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,64 +1686,271 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/qnManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/managerHomeJump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/userManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/Interceptor/ProcessInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="759">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/js/jquery-3.3.1.min.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/js/app.36e219a0a6581ad44a98.js" />
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/vue/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/controller/UserSignupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/Test.java" />
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/role.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/managerHomeJump.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/resources/spring/applicationContext-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/js/jquery.easyui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/java/shiro/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1137">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/css/easyui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/common/pojo/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/ManagerHomeJump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/qnManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/QnManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/Ajax.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-pojo/src/main/java/manager/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/java/portal/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/managerHome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/UserManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro/shiro-web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/java/manager/controller/UserManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-service/src/main/java/manager/service/impl/UserManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/manager-web/src/main/webapp/WEB-INF/jsp/userManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#1585#1592#1#HTML" expanded="true" />
+            <element signature="e#1858#1865#1#HTML" expanded="true" />
+            <element signature="e#3919#3926#1#HTML" expanded="true" />
+            <element signature="e#4254#4261#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

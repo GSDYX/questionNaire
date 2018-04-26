@@ -1,11 +1,12 @@
 <template>
   <div>
   <h1>{{ msg }}</h1>
-  <ul>
-    <li v-for="ok in oks.list">
-      {{ok.username}}
-    </li>
-  </ul>
+    <h2>成功</h2>
+  <!--<ul>-->
+    <!--<li v-for="ok in oks.list">-->
+      <!--{{ok.username}}-->
+    <!--</li>-->
+  <!--</ul>-->
   </div>
 </template>
 <script>
@@ -16,18 +17,19 @@
       return {   //记得return不然接收不到数据
         msg: 'Welcome' //上面的 msg 就是这里输出的
       }
-    },
-    created(){
-      axios.get('http://localhost:8081/manager/test')
-        .then(response=>{
-          console.log(response);
-          this.oks=response.data;
-        })
-        .catch(error=>{
-          console.log(error);
-          alert('网络错误，不能访问');
-        })
     }
+    // ,
+    // created(){
+    //   axios.get('http://localhost:8081/manager/test')
+    //     .then(response=>{
+    //       console.log(response);
+    //       this.oks=response.data;
+    //     })
+    //     .catch(error=>{
+    //       console.log(error);
+    //       alert('网络错误，不能访问');
+    //     })
+    // }
   }
 
 </script>
