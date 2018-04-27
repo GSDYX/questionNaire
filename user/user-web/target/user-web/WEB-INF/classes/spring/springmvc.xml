@@ -26,9 +26,9 @@
 		<!-- 设定文件上传的最大值5MB，5*1024*1024 -->
 		<property name="maxUploadSize" value="5242880"></property>
 	</bean>
-	<!-- 开启aop，对类代理 -->
+	<!--&lt;!&ndash; 开启aop，对类代理 &ndash;&gt;-->
 	<!--<aop:config proxy-target-class="true"></aop:config>-->
-	<!-- 开启shiro注解支持 -->
+	<!--&lt;!&ndash; 开启shiro注解支持 &ndash;&gt;-->
 	<!--<bean-->
 			<!--class="-->
 <!--org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">-->
