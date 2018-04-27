@@ -82,3 +82,23 @@ INSERT INTO `user_role` (`userId`,`roleId`) VALUES ('2', '2');
 INSERT INTO `role_permission` (`roleId`,`permissionId`) VALUES ('1', '1');
 INSERT INTO `role_permission` (`roleId`,`permissionId`) VALUES ('2', '1');
 INSERT INTO `role_permission` (`roleId`,`permissionId`) VALUES ('2', '2');
+---------------------------------------------------------------
+--问卷调查 大学生网络游戏调查问卷 表
+DROP TABLE IF EXISTS `naire`;
+
+CREATE TABLE `naire` (
+  `naireid` int(32) AUTO_INCREMENT,
+  `sex` tinyint(1) NOT NULL,
+  `grade` tinyint(1) NOT NULL,
+  `times` tinyint(1) NOT NULL,
+  `relax` tinyint(1) NOT NULL,
+  `attract` int(16) NOT NULL,
+  `hours` tinyint(1) NOT NULL,
+  `pressure` tinyint(1) NOT NULL,
+  `vent` tinyint(1) NOT NULL,
+  `confidence` tinyint(1) NOT NULL,
+  `lonely` tinyint(1) NOT NULL,
+  `forecast` tinyint(1) NOT NULL,
+  `stop` int(16) NOT NULL,
+  PRIMARY KEY (`naireid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
