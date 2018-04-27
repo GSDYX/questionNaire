@@ -14,13 +14,14 @@
     <link href="<c:url value='/css/bootstrap.min.css'/> " rel="stylesheet">
     <script src="<c:url value='/js/jquery-3.3.1.min.js'/>"></script>
     <script src="<c:url value='/js/bootstrap.min.js'/>"></script>
+
 </head>
 <body>
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <h1 style="text-align:center">大学生网络游戏调查问卷</h1>
         <hr>
-        <form action="">
+        <form action="<c:url value='/naireForm'/> " method="post">
             <div>
                 <p>性别</p>
                 <label class="radio-inline">
@@ -246,13 +247,35 @@
                 </div>
             </div>
             <hr>
-            <P style="text-align:center ;margin-top:2cm"><button class="btn btn-primary btn-lg" type="submit" >提交</button></P>
+            <P style="text-align:center ;margin-top:2cm"><button class="btn btn-primary btn-lg" type="submit" onclick="SendForm();">提交</button></P>
 
         </form>
 
 
     </div>
 </div>
+<%--<script>--%>
+    <%--function SendForm (){--%>
+        <%--var attract = "|";--%>
+        <%--var stop="|";--%>
 
+        <%--$("input[name='attract']:checkbox").each(function(index) {        if ($(this).prop("checked") === true) {--%>
+            <%--attract += ($(this).val())+"|";--%>
+        <%--}--%>
+        <%--});--%>
+
+
+
+        <%--$("input[name='stop']:checkbox").each(function(index) {        if ($(this).prop("checked") === true) {--%>
+            <%--stop += ($(this).val())+"|";--%>
+        <%--}--%>
+        <%--});--%>
+        <%--$("input[name='attract']:checkbox:first").attr("value",attract);--%>
+        <%--console.log( $("input[name='attract']:checkbox:first").value);--%>
+        <%--console.log(attract);--%>
+
+    <%--}--%>
+
+<%--</script>--%>
 </body>
 </html>

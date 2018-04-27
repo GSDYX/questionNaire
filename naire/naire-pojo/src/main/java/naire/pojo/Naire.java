@@ -3,29 +3,29 @@ package naire.pojo;
 public class Naire {
     private Integer naireid;
 
-    private Boolean sex;
+    private Integer sex;
 
-    private Boolean grade;
+    private Integer grade;
 
-    private Boolean times;
+    private Integer times;
 
-    private Boolean relax;
+    private Integer relax;
 
-    private Integer attract;
+    private String attract;
 
-    private Boolean hours;
+    private Integer hours;
 
-    private Boolean pressure;
+    private Integer pressure;
 
-    private Boolean vent;
+    private Integer vent;
 
-    private Boolean confidence;
+    private Integer confidence;
 
-    private Boolean lonely;
+    private Integer lonely;
 
-    private Boolean forecast;
+    private Integer forecast;
 
-    private Integer stop;
+    private String stop;
 
     public Integer getNaireid() {
         return naireid;
@@ -35,99 +35,99 @@ public class Naire {
         this.naireid = naireid;
     }
 
-    public Boolean getSex() {
+    public Integer getSex() {
         return sex;
     }
 
-    public void setSex(Boolean sex) {
+    public void setSex(Integer sex) {
         this.sex = sex;
     }
 
-    public Boolean getGrade() {
+    public Integer getGrade() {
         return grade;
     }
 
-    public void setGrade(Boolean grade) {
+    public void setGrade(Integer grade) {
         this.grade = grade;
     }
 
-    public Boolean getTimes() {
+    public Integer getTimes() {
         return times;
     }
 
-    public void setTimes(Boolean times) {
+    public void setTimes(Integer times) {
         this.times = times;
     }
 
-    public Boolean getRelax() {
+    public Integer getRelax() {
         return relax;
     }
 
-    public void setRelax(Boolean relax) {
+    public void setRelax(Integer relax) {
         this.relax = relax;
     }
 
-    public Integer getAttract() {
+    public String getAttract() {
         return attract;
     }
 
-    public void setAttract(Integer attract) {
-        this.attract = attract;
+    public void setAttract(String attract) {
+        this.attract = attract == null ? null : attract.trim();
     }
 
-    public Boolean getHours() {
+    public Integer getHours() {
         return hours;
     }
 
-    public void setHours(Boolean hours) {
+    public void setHours(Integer hours) {
         this.hours = hours;
     }
 
-    public Boolean getPressure() {
+    public Integer getPressure() {
         return pressure;
     }
 
-    public void setPressure(Boolean pressure) {
+    public void setPressure(Integer pressure) {
         this.pressure = pressure;
     }
 
-    public Boolean getVent() {
+    public Integer getVent() {
         return vent;
     }
 
-    public void setVent(Boolean vent) {
+    public void setVent(Integer vent) {
         this.vent = vent;
     }
 
-    public Boolean getConfidence() {
+    public Integer getConfidence() {
         return confidence;
     }
 
-    public void setConfidence(Boolean confidence) {
+    public void setConfidence(Integer confidence) {
         this.confidence = confidence;
     }
 
-    public Boolean getLonely() {
+    public Integer getLonely() {
         return lonely;
     }
 
-    public void setLonely(Boolean lonely) {
+    public void setLonely(Integer lonely) {
         this.lonely = lonely;
     }
 
-    public Boolean getForecast() {
+    public Integer getForecast() {
         return forecast;
     }
 
-    public void setForecast(Boolean forecast) {
+    public void setForecast(Integer forecast) {
         this.forecast = forecast;
     }
 
-    public Integer getStop() {
+    public String getStop() {
         return stop;
     }
 
-    public void setStop(Integer stop) {
-        this.stop = stop;
+    public void setStop(String stop) {
+        this.stop = stop == null ? null : stop.trim();
     }
 }

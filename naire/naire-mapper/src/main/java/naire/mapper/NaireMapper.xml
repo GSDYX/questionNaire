@@ -3,18 +3,18 @@
 <mapper namespace="naire.mapper.NaireMapper" >
   <resultMap id="BaseResultMap" type="naire.pojo.Naire" >
     <id column="naireid" property="naireid" jdbcType="INTEGER" />
-    <result column="sex" property="sex" jdbcType="BIT" />
-    <result column="grade" property="grade" jdbcType="BIT" />
-    <result column="times" property="times" jdbcType="BIT" />
-    <result column="relax" property="relax" jdbcType="BIT" />
-    <result column="attract" property="attract" jdbcType="INTEGER" />
-    <result column="hours" property="hours" jdbcType="BIT" />
-    <result column="pressure" property="pressure" jdbcType="BIT" />
-    <result column="vent" property="vent" jdbcType="BIT" />
-    <result column="confidence" property="confidence" jdbcType="BIT" />
-    <result column="lonely" property="lonely" jdbcType="BIT" />
-    <result column="forecast" property="forecast" jdbcType="BIT" />
-    <result column="stop" property="stop" jdbcType="INTEGER" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="grade" property="grade" jdbcType="INTEGER" />
+    <result column="times" property="times" jdbcType="INTEGER" />
+    <result column="relax" property="relax" jdbcType="INTEGER" />
+    <result column="attract" property="attract" jdbcType="CHAR" />
+    <result column="hours" property="hours" jdbcType="INTEGER" />
+    <result column="pressure" property="pressure" jdbcType="INTEGER" />
+    <result column="vent" property="vent" jdbcType="INTEGER" />
+    <result column="confidence" property="confidence" jdbcType="INTEGER" />
+    <result column="lonely" property="lonely" jdbcType="INTEGER" />
+    <result column="forecast" property="forecast" jdbcType="INTEGER" />
+    <result column="stop" property="stop" jdbcType="CHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
     <where >
@@ -110,13 +110,15 @@
   </delete>
   <insert id="insert" parameterType="naire.pojo.Naire" >
     insert into naire (naireid, sex, grade, 
-      times, relax, attract, hours, 
-      pressure, vent, confidence, lonely, 
-      forecast, stop)
-    values (#{naireid,jdbcType=INTEGER}, #{sex,jdbcType=BIT}, #{grade,jdbcType=BIT}, 
-      #{times,jdbcType=BIT}, #{relax,jdbcType=BIT}, #{attract,jdbcType=INTEGER}, #{hours,jdbcType=BIT}, 
-      #{pressure,jdbcType=BIT}, #{vent,jdbcType=BIT}, #{confidence,jdbcType=BIT}, #{lonely,jdbcType=BIT}, 
-      #{forecast,jdbcType=BIT}, #{stop,jdbcType=INTEGER})
+      times, relax, attract, 
+      hours, pressure, vent, 
+      confidence, lonely, forecast, 
+      stop)
+    values (#{naireid,jdbcType=INTEGER}, #{sex,jdbcType=INTEGER}, #{grade,jdbcType=INTEGER}, 
+      #{times,jdbcType=INTEGER}, #{relax,jdbcType=INTEGER}, #{attract,jdbcType=CHAR}, 
+      #{hours,jdbcType=INTEGER}, #{pressure,jdbcType=INTEGER}, #{vent,jdbcType=INTEGER}, 
+      #{confidence,jdbcType=INTEGER}, #{lonely,jdbcType=INTEGER}, #{forecast,jdbcType=INTEGER}, 
+      #{stop,jdbcType=CHAR})
   </insert>
   <insert id="insertSelective" parameterType="naire.pojo.Naire" >
     insert into naire
@@ -166,40 +168,40 @@
         #{naireid,jdbcType=INTEGER},
       </if>
       <if test="sex != null" >
-        #{sex,jdbcType=BIT},
+        #{sex,jdbcType=INTEGER},
       </if>
       <if test="grade != null" >
-        #{grade,jdbcType=BIT},
+        #{grade,jdbcType=INTEGER},
       </if>
       <if test="times != null" >
-        #{times,jdbcType=BIT},
+        #{times,jdbcType=INTEGER},
       </if>
       <if test="relax != null" >
-        #{relax,jdbcType=BIT},
+        #{relax,jdbcType=INTEGER},
       </if>
       <if test="attract != null" >
-        #{attract,jdbcType=INTEGER},
+        #{attract,jdbcType=CHAR},
       </if>
       <if test="hours != null" >
-        #{hours,jdbcType=BIT},
+        #{hours,jdbcType=INTEGER},
       </if>
       <if test="pressure != null" >
-        #{pressure,jdbcType=BIT},
+        #{pressure,jdbcType=INTEGER},
       </if>
       <if test="vent != null" >
-        #{vent,jdbcType=BIT},
+        #{vent,jdbcType=INTEGER},
       </if>
       <if test="confidence != null" >
-        #{confidence,jdbcType=BIT},
+        #{confidence,jdbcType=INTEGER},
       </if>
       <if test="lonely != null" >
-        #{lonely,jdbcType=BIT},
+        #{lonely,jdbcType=INTEGER},
       </if>
       <if test="forecast != null" >
-        #{forecast,jdbcType=BIT},
+        #{forecast,jdbcType=INTEGER},
       </if>
       <if test="stop != null" >
-        #{stop,jdbcType=INTEGER},
+        #{stop,jdbcType=CHAR},
       </if>
     </trim>
   </insert>
@@ -216,40 +218,40 @@
         naireid = #{record.naireid,jdbcType=INTEGER},
       </if>
       <if test="record.sex != null" >
-        sex = #{record.sex,jdbcType=BIT},
+        sex = #{record.sex,jdbcType=INTEGER},
       </if>
       <if test="record.grade != null" >
-        grade = #{record.grade,jdbcType=BIT},
+        grade = #{record.grade,jdbcType=INTEGER},
       </if>
       <if test="record.times != null" >
-        times = #{record.times,jdbcType=BIT},
+        times = #{record.times,jdbcType=INTEGER},
       </if>
       <if test="record.relax != null" >
-        relax = #{record.relax,jdbcType=BIT},
+        relax = #{record.relax,jdbcType=INTEGER},
       </if>
       <if test="record.attract != null" >
-        attract = #{record.attract,jdbcType=INTEGER},
+        attract = #{record.attract,jdbcType=CHAR},
       </if>
       <if test="record.hours != null" >
-        hours = #{record.hours,jdbcType=BIT},
+        hours = #{record.hours,jdbcType=INTEGER},
       </if>
       <if test="record.pressure != null" >
-        pressure = #{record.pressure,jdbcType=BIT},
+        pressure = #{record.pressure,jdbcType=INTEGER},
       </if>
       <if test="record.vent != null" >
-        vent = #{record.vent,jdbcType=BIT},
+        vent = #{record.vent,jdbcType=INTEGER},
       </if>
       <if test="record.confidence != null" >
-        confidence = #{record.confidence,jdbcType=BIT},
+        confidence = #{record.confidence,jdbcType=INTEGER},
       </if>
       <if test="record.lonely != null" >
-        lonely = #{record.lonely,jdbcType=BIT},
+        lonely = #{record.lonely,jdbcType=INTEGER},
       </if>
       <if test="record.forecast != null" >
-        forecast = #{record.forecast,jdbcType=BIT},
+        forecast = #{record.forecast,jdbcType=INTEGER},
       </if>
       <if test="record.stop != null" >
-        stop = #{record.stop,jdbcType=INTEGER},
+        stop = #{record.stop,jdbcType=CHAR},
       </if>
     </set>
     <if test="_parameter != null" >
@@ -259,18 +261,18 @@
   <update id="updateByExample" parameterType="map" >
     update naire
     set naireid = #{record.naireid,jdbcType=INTEGER},
-      sex = #{record.sex,jdbcType=BIT},
-      grade = #{record.grade,jdbcType=BIT},
-      times = #{record.times,jdbcType=BIT},
-      relax = #{record.relax,jdbcType=BIT},
-      attract = #{record.attract,jdbcType=INTEGER},
-      hours = #{record.hours,jdbcType=BIT},
-      pressure = #{record.pressure,jdbcType=BIT},
-      vent = #{record.vent,jdbcType=BIT},
-      confidence = #{record.confidence,jdbcType=BIT},
-      lonely = #{record.lonely,jdbcType=BIT},
-      forecast = #{record.forecast,jdbcType=BIT},
-      stop = #{record.stop,jdbcType=INTEGER}
+      sex = #{record.sex,jdbcType=INTEGER},
+      grade = #{record.grade,jdbcType=INTEGER},
+      times = #{record.times,jdbcType=INTEGER},
+      relax = #{record.relax,jdbcType=INTEGER},
+      attract = #{record.attract,jdbcType=CHAR},
+      hours = #{record.hours,jdbcType=INTEGER},
+      pressure = #{record.pressure,jdbcType=INTEGER},
+      vent = #{record.vent,jdbcType=INTEGER},
+      confidence = #{record.confidence,jdbcType=INTEGER},
+      lonely = #{record.lonely,jdbcType=INTEGER},
+      forecast = #{record.forecast,jdbcType=INTEGER},
+      stop = #{record.stop,jdbcType=CHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -279,58 +281,58 @@
     update naire
     <set >
       <if test="sex != null" >
-        sex = #{sex,jdbcType=BIT},
+        sex = #{sex,jdbcType=INTEGER},
       </if>
       <if test="grade != null" >
-        grade = #{grade,jdbcType=BIT},
+        grade = #{grade,jdbcType=INTEGER},
       </if>
       <if test="times != null" >
-        times = #{times,jdbcType=BIT},
+        times = #{times,jdbcType=INTEGER},
       </if>
       <if test="relax != null" >
-        relax = #{relax,jdbcType=BIT},
+        relax = #{relax,jdbcType=INTEGER},
       </if>
       <if test="attract != null" >
-        attract = #{attract,jdbcType=INTEGER},
+        attract = #{attract,jdbcType=CHAR},
       </if>
       <if test="hours != null" >
-        hours = #{hours,jdbcType=BIT},
+        hours = #{hours,jdbcType=INTEGER},
       </if>
       <if test="pressure != null" >
-        pressure = #{pressure,jdbcType=BIT},
+        pressure = #{pressure,jdbcType=INTEGER},
       </if>
       <if test="vent != null" >
-        vent = #{vent,jdbcType=BIT},
+        vent = #{vent,jdbcType=INTEGER},
       </if>
       <if test="confidence != null" >
-        confidence = #{confidence,jdbcType=BIT},
+        confidence = #{confidence,jdbcType=INTEGER},
       </if>
       <if test="lonely != null" >
-        lonely = #{lonely,jdbcType=BIT},
+        lonely = #{lonely,jdbcType=INTEGER},
       </if>
       <if test="forecast != null" >
-        forecast = #{forecast,jdbcType=BIT},
+        forecast = #{forecast,jdbcType=INTEGER},
       </if>
       <if test="stop != null" >
-        stop = #{stop,jdbcType=INTEGER},
+        stop = #{stop,jdbcType=CHAR},
       </if>
     </set>
     where naireid = #{naireid,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="naire.pojo.Naire" >
     update naire
-    set sex = #{sex,jdbcType=BIT},
-      grade = #{grade,jdbcType=BIT},
-      times = #{times,jdbcType=BIT},
-      relax = #{relax,jdbcType=BIT},
-      attract = #{attract,jdbcType=INTEGER},
-      hours = #{hours,jdbcType=BIT},
-      pressure = #{pressure,jdbcType=BIT},
-      vent = #{vent,jdbcType=BIT},
-      confidence = #{confidence,jdbcType=BIT},
-      lonely = #{lonely,jdbcType=BIT},
-      forecast = #{forecast,jdbcType=BIT},
-      stop = #{stop,jdbcType=INTEGER}
+    set sex = #{sex,jdbcType=INTEGER},
+      grade = #{grade,jdbcType=INTEGER},
+      times = #{times,jdbcType=INTEGER},
+      relax = #{relax,jdbcType=INTEGER},
+      attract = #{attract,jdbcType=CHAR},
+      hours = #{hours,jdbcType=INTEGER},
+      pressure = #{pressure,jdbcType=INTEGER},
+      vent = #{vent,jdbcType=INTEGER},
+      confidence = #{confidence,jdbcType=INTEGER},
+      lonely = #{lonely,jdbcType=INTEGER},
+      forecast = #{forecast,jdbcType=INTEGER},
+      stop = #{stop,jdbcType=CHAR}
     where naireid = #{naireid,jdbcType=INTEGER}
   </update>
 </mapper>

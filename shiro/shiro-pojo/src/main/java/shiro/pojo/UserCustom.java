@@ -5,8 +5,6 @@ import java.util.List;
 public class UserCustom implements java.io.Serializable {
     private Integer userid;//用户id（主键）
     private String username;// 用户名称
-
-
     private List<Permission> permissions;// 权限
 
     public String getUsername() {

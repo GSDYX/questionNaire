@@ -174,52 +174,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andSexEqualTo(Boolean value) {
+        public Criteria andSexEqualTo(Integer value) {
             addCriterion("sex =", value, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexNotEqualTo(Boolean value) {
+        public Criteria andSexNotEqualTo(Integer value) {
             addCriterion("sex <>", value, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexGreaterThan(Boolean value) {
+        public Criteria andSexGreaterThan(Integer value) {
             addCriterion("sex >", value, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andSexGreaterThanOrEqualTo(Integer value) {
             addCriterion("sex >=", value, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexLessThan(Boolean value) {
+        public Criteria andSexLessThan(Integer value) {
             addCriterion("sex <", value, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexLessThanOrEqualTo(Boolean value) {
+        public Criteria andSexLessThanOrEqualTo(Integer value) {
             addCriterion("sex <=", value, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexIn(List<Boolean> values) {
+        public Criteria andSexIn(List<Integer> values) {
             addCriterion("sex in", values, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexNotIn(List<Boolean> values) {
+        public Criteria andSexNotIn(List<Integer> values) {
             addCriterion("sex not in", values, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexBetween(Boolean value1, Boolean value2) {
+        public Criteria andSexBetween(Integer value1, Integer value2) {
             addCriterion("sex between", value1, value2, "sex");
             return (Criteria) this;
         }
 
-        public Criteria andSexNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andSexNotBetween(Integer value1, Integer value2) {
             addCriterion("sex not between", value1, value2, "sex");
             return (Criteria) this;
         }
@@ -234,52 +234,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andGradeEqualTo(Boolean value) {
+        public Criteria andGradeEqualTo(Integer value) {
             addCriterion("grade =", value, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeNotEqualTo(Boolean value) {
+        public Criteria andGradeNotEqualTo(Integer value) {
             addCriterion("grade <>", value, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeGreaterThan(Boolean value) {
+        public Criteria andGradeGreaterThan(Integer value) {
             addCriterion("grade >", value, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andGradeGreaterThanOrEqualTo(Integer value) {
             addCriterion("grade >=", value, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeLessThan(Boolean value) {
+        public Criteria andGradeLessThan(Integer value) {
             addCriterion("grade <", value, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeLessThanOrEqualTo(Boolean value) {
+        public Criteria andGradeLessThanOrEqualTo(Integer value) {
             addCriterion("grade <=", value, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeIn(List<Boolean> values) {
+        public Criteria andGradeIn(List<Integer> values) {
             addCriterion("grade in", values, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeNotIn(List<Boolean> values) {
+        public Criteria andGradeNotIn(List<Integer> values) {
             addCriterion("grade not in", values, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeBetween(Boolean value1, Boolean value2) {
+        public Criteria andGradeBetween(Integer value1, Integer value2) {
             addCriterion("grade between", value1, value2, "grade");
             return (Criteria) this;
         }
 
-        public Criteria andGradeNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andGradeNotBetween(Integer value1, Integer value2) {
             addCriterion("grade not between", value1, value2, "grade");
             return (Criteria) this;
         }
@@ -294,52 +294,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andTimesEqualTo(Boolean value) {
+        public Criteria andTimesEqualTo(Integer value) {
             addCriterion("times =", value, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesNotEqualTo(Boolean value) {
+        public Criteria andTimesNotEqualTo(Integer value) {
             addCriterion("times <>", value, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesGreaterThan(Boolean value) {
+        public Criteria andTimesGreaterThan(Integer value) {
             addCriterion("times >", value, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andTimesGreaterThanOrEqualTo(Integer value) {
             addCriterion("times >=", value, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesLessThan(Boolean value) {
+        public Criteria andTimesLessThan(Integer value) {
             addCriterion("times <", value, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesLessThanOrEqualTo(Boolean value) {
+        public Criteria andTimesLessThanOrEqualTo(Integer value) {
             addCriterion("times <=", value, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesIn(List<Boolean> values) {
+        public Criteria andTimesIn(List<Integer> values) {
             addCriterion("times in", values, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesNotIn(List<Boolean> values) {
+        public Criteria andTimesNotIn(List<Integer> values) {
             addCriterion("times not in", values, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesBetween(Boolean value1, Boolean value2) {
+        public Criteria andTimesBetween(Integer value1, Integer value2) {
             addCriterion("times between", value1, value2, "times");
             return (Criteria) this;
         }
 
-        public Criteria andTimesNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andTimesNotBetween(Integer value1, Integer value2) {
             addCriterion("times not between", value1, value2, "times");
             return (Criteria) this;
         }
@@ -354,52 +354,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andRelaxEqualTo(Boolean value) {
+        public Criteria andRelaxEqualTo(Integer value) {
             addCriterion("relax =", value, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxNotEqualTo(Boolean value) {
+        public Criteria andRelaxNotEqualTo(Integer value) {
             addCriterion("relax <>", value, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxGreaterThan(Boolean value) {
+        public Criteria andRelaxGreaterThan(Integer value) {
             addCriterion("relax >", value, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andRelaxGreaterThanOrEqualTo(Integer value) {
             addCriterion("relax >=", value, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxLessThan(Boolean value) {
+        public Criteria andRelaxLessThan(Integer value) {
             addCriterion("relax <", value, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxLessThanOrEqualTo(Boolean value) {
+        public Criteria andRelaxLessThanOrEqualTo(Integer value) {
             addCriterion("relax <=", value, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxIn(List<Boolean> values) {
+        public Criteria andRelaxIn(List<Integer> values) {
             addCriterion("relax in", values, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxNotIn(List<Boolean> values) {
+        public Criteria andRelaxNotIn(List<Integer> values) {
             addCriterion("relax not in", values, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxBetween(Boolean value1, Boolean value2) {
+        public Criteria andRelaxBetween(Integer value1, Integer value2) {
             addCriterion("relax between", value1, value2, "relax");
             return (Criteria) this;
         }
 
-        public Criteria andRelaxNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andRelaxNotBetween(Integer value1, Integer value2) {
             addCriterion("relax not between", value1, value2, "relax");
             return (Criteria) this;
         }
@@ -414,52 +414,62 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andAttractEqualTo(Integer value) {
+        public Criteria andAttractEqualTo(String value) {
             addCriterion("attract =", value, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractNotEqualTo(Integer value) {
+        public Criteria andAttractNotEqualTo(String value) {
             addCriterion("attract <>", value, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractGreaterThan(Integer value) {
+        public Criteria andAttractGreaterThan(String value) {
             addCriterion("attract >", value, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractGreaterThanOrEqualTo(Integer value) {
+        public Criteria andAttractGreaterThanOrEqualTo(String value) {
             addCriterion("attract >=", value, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractLessThan(Integer value) {
+        public Criteria andAttractLessThan(String value) {
             addCriterion("attract <", value, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractLessThanOrEqualTo(Integer value) {
+        public Criteria andAttractLessThanOrEqualTo(String value) {
             addCriterion("attract <=", value, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractIn(List<Integer> values) {
+        public Criteria andAttractLike(String value) {
+            addCriterion("attract like", value, "attract");
+            return (Criteria) this;
+        }
+
+        public Criteria andAttractNotLike(String value) {
+            addCriterion("attract not like", value, "attract");
+            return (Criteria) this;
+        }
+
+        public Criteria andAttractIn(List<String> values) {
             addCriterion("attract in", values, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractNotIn(List<Integer> values) {
+        public Criteria andAttractNotIn(List<String> values) {
             addCriterion("attract not in", values, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractBetween(Integer value1, Integer value2) {
+        public Criteria andAttractBetween(String value1, String value2) {
             addCriterion("attract between", value1, value2, "attract");
             return (Criteria) this;
         }
 
-        public Criteria andAttractNotBetween(Integer value1, Integer value2) {
+        public Criteria andAttractNotBetween(String value1, String value2) {
             addCriterion("attract not between", value1, value2, "attract");
             return (Criteria) this;
         }
@@ -474,52 +484,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andHoursEqualTo(Boolean value) {
+        public Criteria andHoursEqualTo(Integer value) {
             addCriterion("hours =", value, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursNotEqualTo(Boolean value) {
+        public Criteria andHoursNotEqualTo(Integer value) {
             addCriterion("hours <>", value, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursGreaterThan(Boolean value) {
+        public Criteria andHoursGreaterThan(Integer value) {
             addCriterion("hours >", value, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andHoursGreaterThanOrEqualTo(Integer value) {
             addCriterion("hours >=", value, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursLessThan(Boolean value) {
+        public Criteria andHoursLessThan(Integer value) {
             addCriterion("hours <", value, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursLessThanOrEqualTo(Boolean value) {
+        public Criteria andHoursLessThanOrEqualTo(Integer value) {
             addCriterion("hours <=", value, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursIn(List<Boolean> values) {
+        public Criteria andHoursIn(List<Integer> values) {
             addCriterion("hours in", values, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursNotIn(List<Boolean> values) {
+        public Criteria andHoursNotIn(List<Integer> values) {
             addCriterion("hours not in", values, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursBetween(Boolean value1, Boolean value2) {
+        public Criteria andHoursBetween(Integer value1, Integer value2) {
             addCriterion("hours between", value1, value2, "hours");
             return (Criteria) this;
         }
 
-        public Criteria andHoursNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andHoursNotBetween(Integer value1, Integer value2) {
             addCriterion("hours not between", value1, value2, "hours");
             return (Criteria) this;
         }
@@ -534,52 +544,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andPressureEqualTo(Boolean value) {
+        public Criteria andPressureEqualTo(Integer value) {
             addCriterion("pressure =", value, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureNotEqualTo(Boolean value) {
+        public Criteria andPressureNotEqualTo(Integer value) {
             addCriterion("pressure <>", value, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureGreaterThan(Boolean value) {
+        public Criteria andPressureGreaterThan(Integer value) {
             addCriterion("pressure >", value, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andPressureGreaterThanOrEqualTo(Integer value) {
             addCriterion("pressure >=", value, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureLessThan(Boolean value) {
+        public Criteria andPressureLessThan(Integer value) {
             addCriterion("pressure <", value, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureLessThanOrEqualTo(Boolean value) {
+        public Criteria andPressureLessThanOrEqualTo(Integer value) {
             addCriterion("pressure <=", value, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureIn(List<Boolean> values) {
+        public Criteria andPressureIn(List<Integer> values) {
             addCriterion("pressure in", values, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureNotIn(List<Boolean> values) {
+        public Criteria andPressureNotIn(List<Integer> values) {
             addCriterion("pressure not in", values, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureBetween(Boolean value1, Boolean value2) {
+        public Criteria andPressureBetween(Integer value1, Integer value2) {
             addCriterion("pressure between", value1, value2, "pressure");
             return (Criteria) this;
         }
 
-        public Criteria andPressureNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andPressureNotBetween(Integer value1, Integer value2) {
             addCriterion("pressure not between", value1, value2, "pressure");
             return (Criteria) this;
         }
@@ -594,52 +604,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andVentEqualTo(Boolean value) {
+        public Criteria andVentEqualTo(Integer value) {
             addCriterion("vent =", value, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentNotEqualTo(Boolean value) {
+        public Criteria andVentNotEqualTo(Integer value) {
             addCriterion("vent <>", value, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentGreaterThan(Boolean value) {
+        public Criteria andVentGreaterThan(Integer value) {
             addCriterion("vent >", value, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andVentGreaterThanOrEqualTo(Integer value) {
             addCriterion("vent >=", value, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentLessThan(Boolean value) {
+        public Criteria andVentLessThan(Integer value) {
             addCriterion("vent <", value, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentLessThanOrEqualTo(Boolean value) {
+        public Criteria andVentLessThanOrEqualTo(Integer value) {
             addCriterion("vent <=", value, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentIn(List<Boolean> values) {
+        public Criteria andVentIn(List<Integer> values) {
             addCriterion("vent in", values, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentNotIn(List<Boolean> values) {
+        public Criteria andVentNotIn(List<Integer> values) {
             addCriterion("vent not in", values, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentBetween(Boolean value1, Boolean value2) {
+        public Criteria andVentBetween(Integer value1, Integer value2) {
             addCriterion("vent between", value1, value2, "vent");
             return (Criteria) this;
         }
 
-        public Criteria andVentNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andVentNotBetween(Integer value1, Integer value2) {
             addCriterion("vent not between", value1, value2, "vent");
             return (Criteria) this;
         }
@@ -654,52 +664,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceEqualTo(Boolean value) {
+        public Criteria andConfidenceEqualTo(Integer value) {
             addCriterion("confidence =", value, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceNotEqualTo(Boolean value) {
+        public Criteria andConfidenceNotEqualTo(Integer value) {
             addCriterion("confidence <>", value, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceGreaterThan(Boolean value) {
+        public Criteria andConfidenceGreaterThan(Integer value) {
             addCriterion("confidence >", value, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andConfidenceGreaterThanOrEqualTo(Integer value) {
             addCriterion("confidence >=", value, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceLessThan(Boolean value) {
+        public Criteria andConfidenceLessThan(Integer value) {
             addCriterion("confidence <", value, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceLessThanOrEqualTo(Boolean value) {
+        public Criteria andConfidenceLessThanOrEqualTo(Integer value) {
             addCriterion("confidence <=", value, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceIn(List<Boolean> values) {
+        public Criteria andConfidenceIn(List<Integer> values) {
             addCriterion("confidence in", values, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceNotIn(List<Boolean> values) {
+        public Criteria andConfidenceNotIn(List<Integer> values) {
             addCriterion("confidence not in", values, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceBetween(Boolean value1, Boolean value2) {
+        public Criteria andConfidenceBetween(Integer value1, Integer value2) {
             addCriterion("confidence between", value1, value2, "confidence");
             return (Criteria) this;
         }
 
-        public Criteria andConfidenceNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andConfidenceNotBetween(Integer value1, Integer value2) {
             addCriterion("confidence not between", value1, value2, "confidence");
             return (Criteria) this;
         }
@@ -714,52 +724,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andLonelyEqualTo(Boolean value) {
+        public Criteria andLonelyEqualTo(Integer value) {
             addCriterion("lonely =", value, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyNotEqualTo(Boolean value) {
+        public Criteria andLonelyNotEqualTo(Integer value) {
             addCriterion("lonely <>", value, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyGreaterThan(Boolean value) {
+        public Criteria andLonelyGreaterThan(Integer value) {
             addCriterion("lonely >", value, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andLonelyGreaterThanOrEqualTo(Integer value) {
             addCriterion("lonely >=", value, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyLessThan(Boolean value) {
+        public Criteria andLonelyLessThan(Integer value) {
             addCriterion("lonely <", value, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyLessThanOrEqualTo(Boolean value) {
+        public Criteria andLonelyLessThanOrEqualTo(Integer value) {
             addCriterion("lonely <=", value, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyIn(List<Boolean> values) {
+        public Criteria andLonelyIn(List<Integer> values) {
             addCriterion("lonely in", values, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyNotIn(List<Boolean> values) {
+        public Criteria andLonelyNotIn(List<Integer> values) {
             addCriterion("lonely not in", values, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyBetween(Boolean value1, Boolean value2) {
+        public Criteria andLonelyBetween(Integer value1, Integer value2) {
             addCriterion("lonely between", value1, value2, "lonely");
             return (Criteria) this;
         }
 
-        public Criteria andLonelyNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andLonelyNotBetween(Integer value1, Integer value2) {
             addCriterion("lonely not between", value1, value2, "lonely");
             return (Criteria) this;
         }
@@ -774,52 +784,52 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andForecastEqualTo(Boolean value) {
+        public Criteria andForecastEqualTo(Integer value) {
             addCriterion("forecast =", value, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastNotEqualTo(Boolean value) {
+        public Criteria andForecastNotEqualTo(Integer value) {
             addCriterion("forecast <>", value, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastGreaterThan(Boolean value) {
+        public Criteria andForecastGreaterThan(Integer value) {
             addCriterion("forecast >", value, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastGreaterThanOrEqualTo(Boolean value) {
+        public Criteria andForecastGreaterThanOrEqualTo(Integer value) {
             addCriterion("forecast >=", value, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastLessThan(Boolean value) {
+        public Criteria andForecastLessThan(Integer value) {
             addCriterion("forecast <", value, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastLessThanOrEqualTo(Boolean value) {
+        public Criteria andForecastLessThanOrEqualTo(Integer value) {
             addCriterion("forecast <=", value, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastIn(List<Boolean> values) {
+        public Criteria andForecastIn(List<Integer> values) {
             addCriterion("forecast in", values, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastNotIn(List<Boolean> values) {
+        public Criteria andForecastNotIn(List<Integer> values) {
             addCriterion("forecast not in", values, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastBetween(Boolean value1, Boolean value2) {
+        public Criteria andForecastBetween(Integer value1, Integer value2) {
             addCriterion("forecast between", value1, value2, "forecast");
             return (Criteria) this;
         }
 
-        public Criteria andForecastNotBetween(Boolean value1, Boolean value2) {
+        public Criteria andForecastNotBetween(Integer value1, Integer value2) {
             addCriterion("forecast not between", value1, value2, "forecast");
             return (Criteria) this;
         }
@@ -834,52 +844,62 @@ public class NaireExample {
             return (Criteria) this;
         }
 
-        public Criteria andStopEqualTo(Integer value) {
+        public Criteria andStopEqualTo(String value) {
             addCriterion("stop =", value, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopNotEqualTo(Integer value) {
+        public Criteria andStopNotEqualTo(String value) {
             addCriterion("stop <>", value, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopGreaterThan(Integer value) {
+        public Criteria andStopGreaterThan(String value) {
             addCriterion("stop >", value, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopGreaterThanOrEqualTo(Integer value) {
+        public Criteria andStopGreaterThanOrEqualTo(String value) {
             addCriterion("stop >=", value, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopLessThan(Integer value) {
+        public Criteria andStopLessThan(String value) {
             addCriterion("stop <", value, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopLessThanOrEqualTo(Integer value) {
+        public Criteria andStopLessThanOrEqualTo(String value) {
             addCriterion("stop <=", value, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopIn(List<Integer> values) {
+        public Criteria andStopLike(String value) {
+            addCriterion("stop like", value, "stop");
+            return (Criteria) this;
+        }
+
+        public Criteria andStopNotLike(String value) {
+            addCriterion("stop not like", value, "stop");
+            return (Criteria) this;
+        }
+
+        public Criteria andStopIn(List<String> values) {
             addCriterion("stop in", values, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopNotIn(List<Integer> values) {
+        public Criteria andStopNotIn(List<String> values) {
             addCriterion("stop not in", values, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopBetween(Integer value1, Integer value2) {
+        public Criteria andStopBetween(String value1, String value2) {
             addCriterion("stop between", value1, value2, "stop");
             return (Criteria) this;
         }
 
-        public Criteria andStopNotBetween(Integer value1, Integer value2) {
+        public Criteria andStopNotBetween(String value1, String value2) {
             addCriterion("stop not between", value1, value2, "stop");
             return (Criteria) this;
         }
