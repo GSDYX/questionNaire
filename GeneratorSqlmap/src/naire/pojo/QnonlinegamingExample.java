@@ -3,14 +3,14 @@ package naire.pojo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NaireExample {
+public class QnonlinegamingExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public NaireExample() {
+    public QnonlinegamingExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -104,63 +104,63 @@ public class NaireExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andNaireidIsNull() {
-            addCriterion("naireid is null");
+        public Criteria andQnonlinegamingidIsNull() {
+            addCriterion("qnOnlineGamingId is null");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidIsNotNull() {
-            addCriterion("naireid is not null");
+        public Criteria andQnonlinegamingidIsNotNull() {
+            addCriterion("qnOnlineGamingId is not null");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidEqualTo(Integer value) {
-            addCriterion("naireid =", value, "naireid");
+        public Criteria andQnonlinegamingidEqualTo(Integer value) {
+            addCriterion("qnOnlineGamingId =", value, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidNotEqualTo(Integer value) {
-            addCriterion("naireid <>", value, "naireid");
+        public Criteria andQnonlinegamingidNotEqualTo(Integer value) {
+            addCriterion("qnOnlineGamingId <>", value, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidGreaterThan(Integer value) {
-            addCriterion("naireid >", value, "naireid");
+        public Criteria andQnonlinegamingidGreaterThan(Integer value) {
+            addCriterion("qnOnlineGamingId >", value, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidGreaterThanOrEqualTo(Integer value) {
-            addCriterion("naireid >=", value, "naireid");
+        public Criteria andQnonlinegamingidGreaterThanOrEqualTo(Integer value) {
+            addCriterion("qnOnlineGamingId >=", value, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidLessThan(Integer value) {
-            addCriterion("naireid <", value, "naireid");
+        public Criteria andQnonlinegamingidLessThan(Integer value) {
+            addCriterion("qnOnlineGamingId <", value, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidLessThanOrEqualTo(Integer value) {
-            addCriterion("naireid <=", value, "naireid");
+        public Criteria andQnonlinegamingidLessThanOrEqualTo(Integer value) {
+            addCriterion("qnOnlineGamingId <=", value, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidIn(List<Integer> values) {
-            addCriterion("naireid in", values, "naireid");
+        public Criteria andQnonlinegamingidIn(List<Integer> values) {
+            addCriterion("qnOnlineGamingId in", values, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidNotIn(List<Integer> values) {
-            addCriterion("naireid not in", values, "naireid");
+        public Criteria andQnonlinegamingidNotIn(List<Integer> values) {
+            addCriterion("qnOnlineGamingId not in", values, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidBetween(Integer value1, Integer value2) {
-            addCriterion("naireid between", value1, value2, "naireid");
+        public Criteria andQnonlinegamingidBetween(Integer value1, Integer value2) {
+            addCriterion("qnOnlineGamingId between", value1, value2, "qnonlinegamingid");
             return (Criteria) this;
         }
 
-        public Criteria andNaireidNotBetween(Integer value1, Integer value2) {
-            addCriterion("naireid not between", value1, value2, "naireid");
+        public Criteria andQnonlinegamingidNotBetween(Integer value1, Integer value2) {
+            addCriterion("qnOnlineGamingId not between", value1, value2, "qnonlinegamingid");
             return (Criteria) this;
         }
 

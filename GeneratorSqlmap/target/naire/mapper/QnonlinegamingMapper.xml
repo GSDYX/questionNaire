@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="naire.mapper.NaireMapper" >
-  <resultMap id="BaseResultMap" type="naire.pojo.Naire" >
-    <id column="naireid" property="naireid" jdbcType="INTEGER" />
+<mapper namespace="naire.mapper.QnonlinegamingMapper" >
+  <resultMap id="BaseResultMap" type="naire.pojo.Qnonlinegaming" >
+    <id column="qnOnlineGamingId" property="qnonlinegamingid" jdbcType="INTEGER" />
     <result column="sex" property="sex" jdbcType="INTEGER" />
     <result column="grade" property="grade" jdbcType="INTEGER" />
     <result column="times" property="times" jdbcType="INTEGER" />
@@ -75,16 +75,16 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    naireid, sex, grade, times, relax, attract, hours, pressure, vent, confidence, lonely, 
-    forecast, stop
+    qnOnlineGamingId, sex, grade, times, relax, attract, hours, pressure, vent, confidence, 
+    lonely, forecast, stop
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="naire.pojo.NaireExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="naire.pojo.QnonlinegamingExample" >
     select
     <if test="distinct" >
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from naire
+    from qnonlinegaming
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
@@ -95,36 +95,36 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
-    from naire
-    where naireid = #{naireid,jdbcType=INTEGER}
+    from qnonlinegaming
+    where qnOnlineGamingId = #{qnonlinegamingid,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
-    delete from naire
-    where naireid = #{naireid,jdbcType=INTEGER}
+    delete from qnonlinegaming
+    where qnOnlineGamingId = #{qnonlinegamingid,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="naire.pojo.NaireExample" >
-    delete from naire
+  <delete id="deleteByExample" parameterType="naire.pojo.QnonlinegamingExample" >
+    delete from qnonlinegaming
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="naire.pojo.Naire" >
-    insert into naire (naireid, sex, grade, 
+  <insert id="insert" parameterType="naire.pojo.Qnonlinegaming" >
+    insert into qnonlinegaming (qnOnlineGamingId, sex, grade, 
       times, relax, attract, 
       hours, pressure, vent, 
       confidence, lonely, forecast, 
       stop)
-    values (#{naireid,jdbcType=INTEGER}, #{sex,jdbcType=INTEGER}, #{grade,jdbcType=INTEGER}, 
+    values (#{qnonlinegamingid,jdbcType=INTEGER}, #{sex,jdbcType=INTEGER}, #{grade,jdbcType=INTEGER}, 
       #{times,jdbcType=INTEGER}, #{relax,jdbcType=INTEGER}, #{attract,jdbcType=CHAR}, 
       #{hours,jdbcType=INTEGER}, #{pressure,jdbcType=INTEGER}, #{vent,jdbcType=INTEGER}, 
       #{confidence,jdbcType=INTEGER}, #{lonely,jdbcType=INTEGER}, #{forecast,jdbcType=INTEGER}, 
       #{stop,jdbcType=CHAR})
   </insert>
-  <insert id="insertSelective" parameterType="naire.pojo.Naire" >
-    insert into naire
+  <insert id="insertSelective" parameterType="naire.pojo.Qnonlinegaming" >
+    insert into qnonlinegaming
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="naireid != null" >
-        naireid,
+      <if test="qnonlinegamingid != null" >
+        qnOnlineGamingId,
       </if>
       <if test="sex != null" >
         sex,
@@ -164,8 +164,8 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="naireid != null" >
-        #{naireid,jdbcType=INTEGER},
+      <if test="qnonlinegamingid != null" >
+        #{qnonlinegamingid,jdbcType=INTEGER},
       </if>
       <if test="sex != null" >
         #{sex,jdbcType=INTEGER},
@@ -205,17 +205,17 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="naire.pojo.NaireExample" resultType="java.lang.Integer" >
-    select count(*) from naire
+  <select id="countByExample" parameterType="naire.pojo.QnonlinegamingExample" resultType="java.lang.Integer" >
+    select count(*) from qnonlinegaming
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map" >
-    update naire
+    update qnonlinegaming
     <set >
-      <if test="record.naireid != null" >
-        naireid = #{record.naireid,jdbcType=INTEGER},
+      <if test="record.qnonlinegamingid != null" >
+        qnOnlineGamingId = #{record.qnonlinegamingid,jdbcType=INTEGER},
       </if>
       <if test="record.sex != null" >
         sex = #{record.sex,jdbcType=INTEGER},
@@ -259,8 +259,8 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map" >
-    update naire
-    set naireid = #{record.naireid,jdbcType=INTEGER},
+    update qnonlinegaming
+    set qnOnlineGamingId = #{record.qnonlinegamingid,jdbcType=INTEGER},
       sex = #{record.sex,jdbcType=INTEGER},
       grade = #{record.grade,jdbcType=INTEGER},
       times = #{record.times,jdbcType=INTEGER},
@@ -277,8 +277,8 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="naire.pojo.Naire" >
-    update naire
+  <update id="updateByPrimaryKeySelective" parameterType="naire.pojo.Qnonlinegaming" >
+    update qnonlinegaming
     <set >
       <if test="sex != null" >
         sex = #{sex,jdbcType=INTEGER},
@@ -317,10 +317,10 @@
         stop = #{stop,jdbcType=CHAR},
       </if>
     </set>
-    where naireid = #{naireid,jdbcType=INTEGER}
+    where qnOnlineGamingId = #{qnonlinegamingid,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="naire.pojo.Naire" >
-    update naire
+  <update id="updateByPrimaryKey" parameterType="naire.pojo.Qnonlinegaming" >
+    update qnonlinegaming
     set sex = #{sex,jdbcType=INTEGER},
       grade = #{grade,jdbcType=INTEGER},
       times = #{times,jdbcType=INTEGER},
@@ -333,6 +333,6 @@
       lonely = #{lonely,jdbcType=INTEGER},
       forecast = #{forecast,jdbcType=INTEGER},
       stop = #{stop,jdbcType=CHAR}
-    where naireid = #{naireid,jdbcType=INTEGER}
+    where qnOnlineGamingId = #{qnonlinegamingid,jdbcType=INTEGER}
   </update>
 </mapper>

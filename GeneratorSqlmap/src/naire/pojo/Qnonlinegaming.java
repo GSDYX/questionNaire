@@ -1,7 +1,7 @@
 package naire.pojo;
 
-public class Naire {
-    private Integer naireid;
+public class Qnonlinegaming {
+    private Integer qnonlinegamingid;
 
     private Integer sex;
 
@@ -27,12 +27,12 @@ public class Naire {
 
     private String stop;
 
-    public Integer getNaireid() {
-        return naireid;
+    public Integer getQnonlinegamingid() {
+        return qnonlinegamingid;
     }
 
-    public void setNaireid(Integer naireid) {
-        this.naireid = naireid;
+    public void setQnonlinegamingid(Integer qnonlinegamingid) {
+        this.qnonlinegamingid = qnonlinegamingid;
     }
 
     public Integer getSex() {

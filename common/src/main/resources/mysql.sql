@@ -84,10 +84,10 @@ INSERT INTO `role_permission` (`roleId`,`permissionId`) VALUES ('2', '1');
 INSERT INTO `role_permission` (`roleId`,`permissionId`) VALUES ('2', '2');
 ---------------------------------------------------------------
 --问卷调查 大学生网络游戏调查问卷 表
-DROP TABLE IF EXISTS `naire`;
+DROP TABLE IF EXISTS `qnOnlineGaming`;
 
-CREATE TABLE `naire` (
-  `naireid` int(32) AUTO_INCREMENT,
+CREATE TABLE `qnOnlineGaming` (
+  `qnOnlineGamingId` int(32) AUTO_INCREMENT,
   `sex` int(16) NOT NULL,
   `grade` int(16) NOT NULL,
   `times` int(16) NOT NULL,
@@ -100,5 +100,36 @@ CREATE TABLE `naire` (
   `lonely` int(16) NOT NULL,
   `forecast` int(16) NOT NULL,
   `stop` char(16) NOT NULL,
-  PRIMARY KEY (`naireid`)
+  PRIMARY KEY (`qnOnlineGamingId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-------------------------------------------------------
+--用户和问卷关系表
+
+DROP TABLE IF EXISTS `user_naire`;
+CREATE TABLE `user_naire` (
+  `userNaireId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `userId` int(10) unsigned DEFAULT NULL,
+  `naireId` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`userNaireId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO user_naire VALUE ('1','1','1');
+INSERT INTO user_naire VALUE ('2','1','2');
+INSERT INTO user_naire VALUE ('3','1','3');
+INSERT INTO user_naire VALUE ('4','1','4');
+
+------------------------------------------
+--问卷表
+DROP TABLE IF EXISTS `naire`;
+CREATE TABLE `naire` (
+  `naireId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `naireName` CHAR (128) NOT NULL ,
+  `naireAdderss` CHAR (128) NOT NULL,
+  PRIMARY KEY (`naireId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO naire VALUE ('1','qnOnlineGaming','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('2','a','/#');
+INSERT INTO naire VALUE ('3','b','/#');
+INSERT INTO naire VALUE ('4','c','/#');

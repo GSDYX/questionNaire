@@ -80,7 +80,7 @@ public class ShiroServiceImpl implements ShiroService {
     public List<Permission> findPermissionListByUserId(int userid) throws Exception {
         return permissionMapperCustom.findPermissionListByUserId(userid);
     }
-
+//根据id获取角色
     @Override
     public String findRoleListByUserId(int userid) throws Exception {
         return roleMapperCustom.findRoleListByUserId(userid);

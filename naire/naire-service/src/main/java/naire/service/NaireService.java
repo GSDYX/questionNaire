@@ -1,7 +1,7 @@
 package naire.service;
 
-import naire.pojo.Naire;
+import naire.pojo.Qnonlinegaming;
 
 public interface NaireService {
-     void NaireUp(Naire naire);
+     void QnonlinegamingUp(Qnonlinegaming qnonlinegaming);
 }

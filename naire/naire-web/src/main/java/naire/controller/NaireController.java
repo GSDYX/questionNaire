@@ -1,6 +1,6 @@
 package naire.controller;
 
-import naire.pojo.Naire;
+import naire.pojo.Qnonlinegaming;
 import naire.service.NaireService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,8 +16,8 @@ public class NaireController {
     }
 
     @RequestMapping("/naireForm")
-    public String naireForm(Naire naire) {
-        naireService.NaireUp(naire);
+    public String naireForm(Qnonlinegaming qnonlinegaming) {
+        naireService.QnonlinegamingUp(qnonlinegaming);
         return "success";
     }
 }
