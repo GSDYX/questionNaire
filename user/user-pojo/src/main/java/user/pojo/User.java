@@ -1,11 +1,11 @@
 package user.pojo;
 
 public class User {
-    private Integer uid;
+    private Integer userid;
 
     private String username;
 
-    private String userpwd;
+    private String password;
 
     private String email;
 
@@ -13,12 +13,12 @@ public class User {
 
     private String activationcode;
 
-    public Integer getUid() {
-        return uid;
+    public Integer getUserid() {
+        return userid;
     }
 
-    public void setUid(Integer uid) {
-        this.uid = uid;
+    public void setUserid(Integer userid) {
+        this.userid = userid;
     }
 
     public String getUsername() {
@@ -29,12 +29,12 @@ public class User {
         this.username = username == null ? null : username.trim();
     }
 
-    public String getUserpwd() {
-        return userpwd;
+    public String getPassword() {
+        return password;
     }
 
-    public void setUserpwd(String userpwd) {
-        this.userpwd = userpwd == null ? null : userpwd.trim();
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
     }
 
     public String getEmail() {

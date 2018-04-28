@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class NaireController {
     @Autowired
     private NaireService naireService;
-    @RequestMapping("/")
-    public String qnJump() {
-        return "onlineGaming";
-    }
+//    @RequestMapping("/")
+//    public String qnJump() {
+//        return "onlineGaming";
+//    }
 
     @RequestMapping("/naireForm")
     public String naireForm(Qnonlinegaming qnonlinegaming) {

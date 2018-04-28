@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="naire.mapper.NaireMapper" >
+  <resultMap id="BaseResultMap" type="naire.pojo.Naire" >
+    <id column="naireId" property="naireid" jdbcType="INTEGER" />
+    <result column="naireName" property="nairename" jdbcType="CHAR" />
+    <result column="naireAdderss" property="naireadderss" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    naireId, naireName, naireAdderss
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="naire.pojo.NaireExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from naire
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from naire
+    where naireId = #{naireid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from naire
+    where naireId = #{naireid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="naire.pojo.NaireExample" >
+    delete from naire
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="naire.pojo.Naire" >
+    insert into naire (naireId, naireName, naireAdderss
+      )
+    values (#{naireid,jdbcType=INTEGER}, #{nairename,jdbcType=CHAR}, #{naireadderss,jdbcType=CHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="naire.pojo.Naire" >
+    insert into naire
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="naireid != null" >
+        naireId,
+      </if>
+      <if test="nairename != null" >
+        naireName,
+      </if>
+      <if test="naireadderss != null" >
+        naireAdderss,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="naireid != null" >
+        #{naireid,jdbcType=INTEGER},
+      </if>
+      <if test="nairename != null" >
+        #{nairename,jdbcType=CHAR},
+      </if>
+      <if test="naireadderss != null" >
+        #{naireadderss,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="naire.pojo.NaireExample" resultType="java.lang.Integer" >
+    select count(*) from naire
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update naire
+    <set >
+      <if test="record.naireid != null" >
+        naireId = #{record.naireid,jdbcType=INTEGER},
+      </if>
+      <if test="record.nairename != null" >
+        naireName = #{record.nairename,jdbcType=CHAR},
+      </if>
+      <if test="record.naireadderss != null" >
+        naireAdderss = #{record.naireadderss,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update naire
+    set naireId = #{record.naireid,jdbcType=INTEGER},
+      naireName = #{record.nairename,jdbcType=CHAR},
+      naireAdderss = #{record.naireadderss,jdbcType=CHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="naire.pojo.Naire" >
+    update naire
+    <set >
+      <if test="nairename != null" >
+        naireName = #{nairename,jdbcType=CHAR},
+      </if>
+      <if test="naireadderss != null" >
+        naireAdderss = #{naireadderss,jdbcType=CHAR},
+      </if>
+    </set>
+    where naireId = #{naireid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="naire.pojo.Naire" >
+    update naire
+    set naireName = #{nairename,jdbcType=CHAR},
+      naireAdderss = #{naireadderss,jdbcType=CHAR}
+    where naireId = #{naireid,jdbcType=INTEGER}
+  </update>
+</mapper>

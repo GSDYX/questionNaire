@@ -15,5 +15,6 @@
 <body>
 <h1>我的问卷</h1>
 ${sessionScope.username}
+
 </body>
 </html>

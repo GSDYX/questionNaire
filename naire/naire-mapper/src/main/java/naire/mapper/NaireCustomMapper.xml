@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="naire.mapper.NaireCustomMapper" >
+
+
+    <!-- 根据用户id查询权限 -->
+    <select id="findNaireListByUserId" parameterType="int" resultType="naire.pojo.Naire">
+        SELECT
+        *
+        FROM
+        naire
+        WHERE
+        naireId IN
+        (SELECT
+        naireId
+        FROM
+        user_naire
+        WHERE userId = #{userid})
+
+    </select>
+
+
+</mapper>

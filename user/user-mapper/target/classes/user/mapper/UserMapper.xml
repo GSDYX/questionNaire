@@ -2,9 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="user.mapper.UserMapper" >
   <resultMap id="BaseResultMap" type="user.pojo.User" >
-    <id column="uid" property="uid" jdbcType="INTEGER" />
+    <id column="userId" property="userid" jdbcType="INTEGER" />
     <result column="username" property="username" jdbcType="VARCHAR" />
-    <result column="userpwd" property="userpwd" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="email" property="email" jdbcType="VARCHAR" />
     <result column="status" property="status" jdbcType="BIT" />
     <result column="activationCode" property="activationcode" jdbcType="CHAR" />
@@ -68,7 +68,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    uid, username, userpwd, email, status, activationCode
+    userId, username, password, email, status, activationCode
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="user.pojo.UserExample" >
     select
@@ -88,11 +88,11 @@
     select 
     <include refid="Base_Column_List" />
     from user
-    where uid = #{uid,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from user
-    where uid = #{uid,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </delete>
   <delete id="deleteByExample" parameterType="user.pojo.UserExample" >
     delete from user
@@ -101,24 +101,24 @@
     </if>
   </delete>
   <insert id="insert" parameterType="user.pojo.User" >
-    insert into user (uid, username, userpwd, 
+    insert into user (userId, username, password, 
       email, status, activationCode
       )
-    values (#{uid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{userpwd,jdbcType=VARCHAR}, 
+    values (#{userid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{email,jdbcType=VARCHAR}, #{status,jdbcType=BIT}, #{activationcode,jdbcType=CHAR}
       )
   </insert>
   <insert id="insertSelective" parameterType="user.pojo.User" >
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="uid != null" >
-        uid,
+      <if test="userid != null" >
+        userId,
       </if>
       <if test="username != null" >
         username,
       </if>
-      <if test="userpwd != null" >
-        userpwd,
+      <if test="password != null" >
+        password,
       </if>
       <if test="email != null" >
         email,
@@ -131,14 +131,14 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="uid != null" >
-        #{uid,jdbcType=INTEGER},
+      <if test="userid != null" >
+        #{userid,jdbcType=INTEGER},
       </if>
       <if test="username != null" >
         #{username,jdbcType=VARCHAR},
       </if>
-      <if test="userpwd != null" >
-        #{userpwd,jdbcType=VARCHAR},
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
       </if>
       <if test="email != null" >
         #{email,jdbcType=VARCHAR},
@@ -160,14 +160,14 @@
   <update id="updateByExampleSelective" parameterType="map" >
     update user
     <set >
-      <if test="record.uid != null" >
-        uid = #{record.uid,jdbcType=INTEGER},
+      <if test="record.userid != null" >
+        userId = #{record.userid,jdbcType=INTEGER},
       </if>
       <if test="record.username != null" >
         username = #{record.username,jdbcType=VARCHAR},
       </if>
-      <if test="record.userpwd != null" >
-        userpwd = #{record.userpwd,jdbcType=VARCHAR},
+      <if test="record.password != null" >
+        password = #{record.password,jdbcType=VARCHAR},
       </if>
       <if test="record.email != null" >
         email = #{record.email,jdbcType=VARCHAR},
@@ -185,9 +185,9 @@
   </update>
   <update id="updateByExample" parameterType="map" >
     update user
-    set uid = #{record.uid,jdbcType=INTEGER},
+    set userId = #{record.userid,jdbcType=INTEGER},
       username = #{record.username,jdbcType=VARCHAR},
-      userpwd = #{record.userpwd,jdbcType=VARCHAR},
+      password = #{record.password,jdbcType=VARCHAR},
       email = #{record.email,jdbcType=VARCHAR},
       status = #{record.status,jdbcType=BIT},
       activationCode = #{record.activationcode,jdbcType=CHAR}
@@ -201,8 +201,8 @@
       <if test="username != null" >
         username = #{username,jdbcType=VARCHAR},
       </if>
-      <if test="userpwd != null" >
-        userpwd = #{userpwd,jdbcType=VARCHAR},
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
       </if>
       <if test="email != null" >
         email = #{email,jdbcType=VARCHAR},
@@ -214,15 +214,15 @@
         activationCode = #{activationcode,jdbcType=CHAR},
       </if>
     </set>
-    where uid = #{uid,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="user.pojo.User" >
     update user
     set username = #{username,jdbcType=VARCHAR},
-      userpwd = #{userpwd,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
       email = #{email,jdbcType=VARCHAR},
       status = #{status,jdbcType=BIT},
       activationCode = #{activationcode,jdbcType=CHAR}
-    where uid = #{uid,jdbcType=INTEGER}
+    where userId = #{userid,jdbcType=INTEGER}
   </update>
 </mapper>

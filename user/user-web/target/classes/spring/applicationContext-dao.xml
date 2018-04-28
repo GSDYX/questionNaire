@@ -31,6 +31,6 @@
 	<!-- 配置包扫描器，扫描mapper接口生成代理对象放到spring容器中 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<!-- 指定要扫描的包 -->
-		<property name="basePackage" value="user.mapper"/>
+		<property name="basePackage" value="user.mapper,naire.mapper"/>
 	</bean>
 </beans>
