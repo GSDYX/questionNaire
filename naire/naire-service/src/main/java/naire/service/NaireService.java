@@ -2,6 +2,11 @@ package naire.service;
 
 import naire.pojo.Qnonlinegaming;
 
+import java.util.List;
+
 public interface NaireService {
-     void QnonlinegamingUp(Qnonlinegaming qnonlinegaming);
+     void qnOnlineGamingUp(Qnonlinegaming qnonlinegaming);
+
+     List<Qnonlinegaming> qnOnlineGamingReport();
+
 }

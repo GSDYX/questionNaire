@@ -24,7 +24,7 @@ public class QnController {
 //    }
 
 
-//    @RequestMapping("/myQnJump")
+    //    @RequestMapping("/myQnJump")
     @RequestMapping("/")
     public String myQnJump(Model model) {
 
@@ -38,5 +38,17 @@ public class QnController {
         userCustom.setUser(user);
         model.addAttribute("userCustom", userCustom);
         return "myQn";
+    }
+
+    @RequestMapping("/qnAddJump")
+    public String qnAddJump(Model model) {
+        String username = "user";
+        //根据用户名获取用户信息
+        User user = userService.findUserWhitUsername(username);
+
+        List<Naire> naireListAll = userNaireService.findNaireListAll();
+        model.addAttribute("naireListAll", naireListAll);
+        model.addAttribute("userid", user.getUserid());
+        return "qnAdd";
     }
 }

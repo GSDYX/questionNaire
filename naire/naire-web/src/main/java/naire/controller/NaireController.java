@@ -14,10 +14,19 @@ public class NaireController {
 //    public String qnJump() {
 //        return "onlineGaming";
 //    }
-
-    @RequestMapping("/naireForm")
-    public String naireForm(Qnonlinegaming qnonlinegaming) {
-        naireService.QnonlinegamingUp(qnonlinegaming);
+//用户提交表单
+    @RequestMapping("/QnonlinegamingUp")
+    public String qnOnlineGamingUp(Qnonlinegaming qnonlinegaming) {
+        naireService.qnOnlineGamingUp(qnonlinegaming);
         return "success";
     }
+
+//    @RequestMapping("/qnOnlineGamingJump")
+//    public String QnOnlineGamingJump() {
+////        return "onlineGaming";
+//        return "test";
+//    }
+
+
+
 }
