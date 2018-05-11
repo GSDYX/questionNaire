@@ -58,7 +58,6 @@ To change this template use File | Settings | File Templates.
 </head>
 <body>
 ${sessionScope.username}
-${sessionScope.values()}
 <!--home start-->
 
 <div id="home">
