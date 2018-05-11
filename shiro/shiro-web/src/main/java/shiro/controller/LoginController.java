@@ -7,14 +7,16 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import shiro.pojo.UserCustom;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 @Controller
 public class LoginController {
 
-//    @RequestMapping("/loginJump")
-    @RequestMapping("/")
+    @RequestMapping("/loginJump")
+//    @RequestMapping("/")
     public String loginJump() {
         return "login";
     }
@@ -51,10 +53,15 @@ public class LoginController {
     }
 
     @RequestMapping("/roleJump")
-    public String userOrManagerJump() {
+    public String userOrManagerJump(Model model,HttpServletRequest request) {
         Subject subject = SecurityUtils.getSubject();
+        UserCustom userCustom= (UserCustom) subject.getPrincipal();
+        String username = userCustom.getUsername();
+        HttpSession session = request.getSession();
+        session.setAttribute("username",username);
+
         if (subject.hasRole("user")) {
-            return "a";
+            return "index";
         } else {
             return "managerHomeJump";
         }

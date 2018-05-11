@@ -31,7 +31,7 @@
                     <td><a href="/naire${item.naireadderss}">${item.nairename}</a> </td>
                     <td><a href="/naire/qnDelect?naireid=${item.naireid}&userid=${userCustom.user.userid}">删除问卷</a></td>
                     <td><a href="/naire/qnShare?naireadderss=${item.naireadderss}&nairename=${item.nairename}">分享问卷</a></td>
-                    <td><a href="/naire/qnReport?nairename=${item.nairename}">生成问卷报告</a></td>
+                    <td><a href="/naire/qnReportJump?nairename=${item.nairename}">生成问卷报告</a></td>
                 </tr>
             </c:forEach>
         </table>

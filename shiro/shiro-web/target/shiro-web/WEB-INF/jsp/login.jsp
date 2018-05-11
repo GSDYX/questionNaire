@@ -18,17 +18,11 @@
     <script src="<c:url value='/js/bootstrap.min.js'/>"></script>
 </head>
 <body>
-<%--${exception}--%>
-<%--<form action="<c:url value='/login'/>" method="post">--%>
-    <%--<input type="text" name="username" value="admin">--%>
-    <%--<input type="text" name="password" value="admin">--%>
-    <%--<input type="submit" value="提交">--%>
-    <%--<TR>--%>
-        <%--<TD>验证码：</TD>--%>
-        <%--<TD><input id="randomcode" name="randomcode" size="8" /> <img id="randomcode_img" src="<c:url value='/validatecode.jsp'/>" alt="" width="56" height="20" align='absMiddle' />--%>
 
-    <%--</TR>--%>
-<%--</form>--%>
+<div class="row">
+    <div class="col-md-4 col-md-offset-5"><h1>用户登入</h1></div>
+</div>
+<hr>
 ${exception}
 <form action="<c:url value='/login'/>" method="post">
 <div class="row row-margin-top">
