@@ -32,9 +32,7 @@
 
                 <td>${list.userid}</td>
                 <td>${list.username}</td>
-                <td>${list.password}</td>
-                <td><a href="#">封禁用户</a></td>
-                <td><a href="#">删除用户</a></td>
+                <td><a href="<c:url value='/userDelect?userid=${list.userid}'/> ">删除用户</a></td>
             </tr>
         </c:forEach>
     </table>

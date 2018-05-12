@@ -25,4 +25,14 @@ public class UserServiceImpl implements UserService {
 
 
     }
+//修改用户密码
+    @Override
+    public void userAlterPwd(String username,String password) {
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andUsernameEqualTo(username);
+        User user = new User();
+        user.setPassword(password);
+        userMapper.updateByExampleSelective(user,userExample);
+    }
 }

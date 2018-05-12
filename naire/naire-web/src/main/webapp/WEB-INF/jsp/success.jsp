@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<h1>感谢填写</h1>
+<h1 style="margin: auto">感谢填写</h1>
 </body>
 </html>

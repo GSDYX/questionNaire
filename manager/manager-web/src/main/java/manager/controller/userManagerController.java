@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class UserManagerController {
@@ -21,11 +20,12 @@ public class UserManagerController {
         return "userManager";
     }
 
-    @ResponseBody
-    @RequestMapping("/test")
-    public PageInfo getUserList(@RequestParam(defaultValue="1") int pageNum, @RequestParam(defaultValue="10") int pageSize) {
-        PageInfo pageInfo = userManagerService.getUserList(pageNum,pageSize);
-        return pageInfo;
+
+    //删除用户
+    @RequestMapping("/userDelect")
+    public String userDelect(int userid) {
+        userManagerService.userDelect(userid);
+        return "userDelectSuccess";
     }
 
 

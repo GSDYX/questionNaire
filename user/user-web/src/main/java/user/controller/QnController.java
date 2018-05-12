@@ -10,6 +10,7 @@ import user.pojo.User;
 import user.pojo.UserCustom;
 import user.service.UserService;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
@@ -18,16 +19,11 @@ public class QnController {
     private UserService userService;
     @Autowired
     private UserNaireService userNaireService;
-//    @RequestMapping("/")
-//    public String login() {
-//        return "userLogin";
-//    }
 
+    @RequestMapping("/myQnJump")
+    public String myQnJump(Model model, HttpSession session) {
 
-    //    @RequestMapping("/myQnJump")
-    @RequestMapping("/")
-    public String myQnJump(Model model) {
-
+//        String username = (String) session.getAttribute("username");
         String username = "user";
         //根据用户名获取用户信息
         User user = userService.findUserWhitUsername(username);
@@ -42,6 +38,7 @@ public class QnController {
 
     @RequestMapping("/qnAddJump")
     public String qnAddJump(Model model) {
+        //        String username = (String) session.getAttribute("username");
         String username = "user";
         //根据用户名获取用户信息
         User user = userService.findUserWhitUsername(username);
@@ -50,5 +47,10 @@ public class QnController {
         model.addAttribute("naireListAll", naireListAll);
         model.addAttribute("userid", user.getUserid());
         return "qnAdd";
+    }
+
+    @RequestMapping("/userHomeJump")
+    public String user() {
+        return "userHome";
     }
 }

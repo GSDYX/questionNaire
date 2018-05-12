@@ -78,8 +78,8 @@ To change this template use File | Settings | File Templates.
                                         <li><a href="<c:url value='/userSignupJump'/>">注册</a></li>
                                     </c:when>
                                     <c:otherwise>
-                                        <li><a href="#">用户名</a></li>
-                                        <li><a href="#">问卷管理</a></li>
+                                        <li><a href="/user/userHomeJump">用户名</a></li>
+                                        <li><a href="/user/myQnJump">问卷管理</a></li>
                                         <li class="last"><a href="<c:url value='/logout'/>">注销</a></li>
                                     </c:otherwise>
                                 </c:choose>

@@ -49,6 +49,9 @@
     <orderEntry type="module" module-name="manager-service" />
     <orderEntry type="module" module-name="manager-mapper" />
     <orderEntry type="module" module-name="manager-pojo" />
+    <orderEntry type="module" module-name="naire-pojo" />
+    <orderEntry type="module" module-name="naire-service" />
+    <orderEntry type="module" module-name="naire-mapper" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:4.3.1.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />

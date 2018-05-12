@@ -129,7 +129,11 @@ CREATE TABLE `naire` (
   PRIMARY KEY (`naireId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO naire VALUE ('1','qnOnlineGaming','/qnOnlineGamingJump');
-INSERT INTO naire VALUE ('2','a','/#');
-INSERT INTO naire VALUE ('3','b','/#');
-INSERT INTO naire VALUE ('4','c','/#');
+INSERT INTO naire VALUE ('1','大学生网络游戏调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('2','大学生消费情况调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('3','大学生就业情况调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('4','市场调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('5','客户满意度调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('6','员工满意度调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('7','教育调查','/qnOnlineGamingJump');
+INSERT INTO naire VALUE ('8','家庭情况调查','/qnOnlineGamingJump');

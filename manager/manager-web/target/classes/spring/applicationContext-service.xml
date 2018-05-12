@@ -10,4 +10,5 @@
 
 	<!-- 配置包扫描器，扫描@Service主键的类 -->
 	<context:component-scan base-package="manager.service"/>
+	<context:component-scan base-package="naire.service"/>
 </beans>

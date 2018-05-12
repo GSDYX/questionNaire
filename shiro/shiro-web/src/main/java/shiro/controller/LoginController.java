@@ -53,13 +53,12 @@ public class LoginController {
     }
 
     @RequestMapping("/roleJump")
-    public String userOrManagerJump(Model model,HttpServletRequest request) {
+    public String userOrManagerJump(HttpServletRequest request) {
         Subject subject = SecurityUtils.getSubject();
         UserCustom userCustom= (UserCustom) subject.getPrincipal();
         String username = userCustom.getUsername();
         HttpSession session = request.getSession();
         session.setAttribute("username",username);
-
         if (subject.hasRole("user")) {
             return "index";
         } else {

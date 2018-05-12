@@ -11,10 +11,24 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="<c:url value='/css/bootstrap.min.css'/> " rel="stylesheet">
+    <script src="<c:url value='/js/jquery-3.3.1.min.js'/>"></script>
+    <script src="<c:url value='/js/bootstrap.min.js'/>"></script>
 </head>
 <body>
-问卷名 ${nairename}
+
+<div class="row">
+    <div class="col-md-8">
+        <h1>问卷名<small>${nairename}</small></h1>
+    </div>
+</div>
+
 <br>
-问卷链接为<c:url value="${link}"/>
+<div class="row">
+    <div class="col-md-8">
+        <h1>问卷链接为<small>localhost:8080<c:url value="${link}"/></small></h1>
+    </div>
+</div>
+
 </body>
 </html>

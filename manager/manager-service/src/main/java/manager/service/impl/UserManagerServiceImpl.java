@@ -26,4 +26,9 @@ import java.util.List;
         PageInfo<User> pageInfo = new PageInfo<>(list);
         return pageInfo;
     }
+
+    @Override
+    public void userDelect(int userid) {
+        userMapper.deleteByPrimaryKey(userid);
+    }
 }

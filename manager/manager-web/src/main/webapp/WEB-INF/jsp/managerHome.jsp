@@ -11,9 +11,26 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="<c:url value='/css/bootstrap.min.css'/> " rel="stylesheet">
+    <script src="<c:url value='/js/jquery-3.3.1.min.js'/>"></script>
+    <script src="<c:url value='/js/bootstrap.min.js'/>"></script>
 </head>
 <body>
-<a href="<c:url value='/userManager'/>">用户管理</a>
-<a href="<c:url value='/qnManagerJump'/>">问卷管理</a>
+
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-2">
+        <button type="button" class="btn btn-danger">
+            <a href="<c:url value='/userManager'/>" style="color: white">用户管理</a>
+        </button>
+    </div>
+    <div class="col-md-4 col-md-offset-2" >
+        <button type="button" class="btn btn-danger">
+            <a href="<c:url value='/qnManagerJump'/>" style="color: white">问卷管理</a>
+        </button>
+    </div>
+</div>
+
+
 </body>
 </html>

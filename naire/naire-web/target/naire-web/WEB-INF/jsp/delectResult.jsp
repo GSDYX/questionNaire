@@ -11,8 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-删除成功
-//返回用户问卷显示页 myQn.jsp
-<a href="#"></a>
+<h1>删除成功</h1>
+
+<a href="/user/myQnJump">返回我的问卷</a>
 </body>
 </html>

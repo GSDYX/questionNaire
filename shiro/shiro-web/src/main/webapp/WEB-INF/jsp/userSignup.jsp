@@ -27,7 +27,7 @@
         <div class="col-md-3 col-md-offset-4" >
             <div class="input-group">
                 <span class="input-group-addon">用户名</span>
-                <input type="text" class="form-control inputClass" name="username" placeholder="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" name="username" placeholder="Username" aria-describedby="basic-addon1">
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@
         <div class="col-md-3 col-md-offset-4" >
             <div class="input-group">
                 <span class="input-group-addon">&nbsp;密&nbsp;码&nbsp; </span>
-                <input type="text" class="form-control inputClass" name="password" placeholder="Password" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" name="password" placeholder="Password" aria-describedby="basic-addon1">
             </div>
         </div>
     </div>
@@ -47,8 +47,13 @@
     </div>
     <div class="row row-margin-top" >
         <div class="col-md-2 col-md-offset-4" style="margin-top: 5px" >
-            <c:if test="${not empty exception}">
-                <div class="alert alert-danger" role="alert">${exception}</div>
+            <c:if test="${not empty errors}">
+                <c:forEach items="${errors}" var="error">
+                    <div class="alert alert-danger" role="alert">${error.defaultMessage}</div>
+                </c:forEach>
+            </c:if>
+            <c:if test="${not empty message}">
+                <div class="alert alert-danger" role="alert">${message}</div>
             </c:if>
         </div>
     </div>

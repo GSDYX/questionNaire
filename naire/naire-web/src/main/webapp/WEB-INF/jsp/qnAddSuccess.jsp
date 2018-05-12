@@ -11,6 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-添加问卷成功
+<h1 style="margin: auto">添加问卷成功</h1>
+<a href="/user/qnAddJump">返回继续添加</a>
+<a href="/user/myQnJump">返回我的问卷</a>
 </body>
 </html>
