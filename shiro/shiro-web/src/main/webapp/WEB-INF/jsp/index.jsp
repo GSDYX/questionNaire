@@ -57,7 +57,6 @@ To change this template use File | Settings | File Templates.
 
 </head>
 <body>
-${sessionScope.username}
 <!--home start-->
 
 <div id="home">
@@ -73,12 +72,17 @@ ${sessionScope.username}
                     <div class="col-md-8">
                         <div class="navmenu"style="text-align: center;">
                             <ul id="menu">
-                                <li class="active" ><a href="<c:url value='/shiro/loginJump'/>">登入</a></li>
-                                <li><a href="<c:url value='/userSignupJump'/>">注册</a></li>
-                                <li><a href="#">用户名</a></li>
-                                <li><a href="#">问卷管理</a></li>
-                                <li class="last"><a href="<c:url value='/test.jsp'/>">test</a></li>
-
+                                <c:choose>
+                                    <c:when test="${empty sessionScope.username}">
+                                        <li class="active" ><a href="<c:url value='/shiro/loginJump'/>">登入</a></li>
+                                        <li><a href="<c:url value='/userSignupJump'/>">注册</a></li>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <li><a href="#">用户名</a></li>
+                                        <li><a href="#">问卷管理</a></li>
+                                        <li class="last"><a href="<c:url value='/logout'/>">注销</a></li>
+                                    </c:otherwise>
+                                </c:choose>
                             </ul>
                         </div>
                     </div>

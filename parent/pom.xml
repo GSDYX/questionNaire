@@ -42,7 +42,9 @@
         <jedis.version>2.7.2</jedis.version>
         <solrj.version>4.10.3</solrj.version>
         <shiro.version>1.2.3</shiro.version>
-
+        <hibernate-validator.version>4.3.1.Final</hibernate-validator.version>
+        <validation-api.version>1.0.0.GA</validation-api.version>
+        <jboss-logging.versionn>3.1.0.CR2</jboss-logging.versionn>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -210,9 +212,20 @@
                 <artifactId>shiro-core</artifactId>
                 <version>${shiro.version}</version>
             </dependency>
+            <!--校验组件-->
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${hibernate-validator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${validation-api.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
