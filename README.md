@@ -15,7 +15,7 @@ ORM框架：Mybatis
 
 安全框架：Shiro
 
-数据库：mysql
+数据库：Mysql
 
 日志：log4j
 
@@ -29,6 +29,6 @@ ORM框架：Mybatis
 ### 2. 初始化项目
 * 在你的Mysql中，创建一个数据库名称为qn的数据库，并导入项目文件中的sql文件。
 * 修改数据库的用户名和密码都为root，也可以修改db.properties配置文件为自己的账号密码。 
-* war文件夹（在项目文件中）下的所有war文件放入tomcat的webapps夹下，启动tomcat。  
+* 将war文件夹（在项目文件夹中）下的所有war文件放入tomcat的webapps夹下，启动tomcat。  
 * 项目的入口网址为localhost:8080/shiro  
 * 用户测试账号user；管理员测试账号admin。（密码和账号相同）
