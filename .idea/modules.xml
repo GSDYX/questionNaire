@@ -16,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/naire/naire-service/naire-service.iml" filepath="$PROJECT_DIR$/naire/naire-service/naire-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/naire/naire-web/naire-web.iml" filepath="$PROJECT_DIR$/naire/naire-web/naire-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/portal/portal.iml" filepath="$PROJECT_DIR$/portal/portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-mapper/portal-mapper.iml" filepath="$PROJECT_DIR$/portal/portal-mapper/portal-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-pojo/portal-pojo.iml" filepath="$PROJECT_DIR$/portal/portal-pojo/portal-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/portal/portal-service/portal-service.iml" filepath="$PROJECT_DIR$/portal/portal-service/portal-service.iml" />

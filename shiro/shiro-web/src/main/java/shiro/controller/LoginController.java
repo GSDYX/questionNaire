@@ -42,7 +42,7 @@ public class LoginController {
             } else if ("randomCodeError".equals(exceptionClassName)) {
                 model.addAttribute("exception", "验证码错误");
             } else {
-                model.addAttribute("exception", "位置错误错误");
+                model.addAttribute("exception", "未知错误");
             }
 
         }
