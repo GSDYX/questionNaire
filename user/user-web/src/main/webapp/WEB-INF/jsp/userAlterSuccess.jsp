@@ -12,6 +12,6 @@
 </head>
 <body>
 <h1>密码修改成功</h1>
-<a href="/">返回主页</a>
+<a href="/shiro">返回主页</a>
 </body>
 </html>
